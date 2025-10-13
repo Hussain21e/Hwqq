@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <title>المياحي TV</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.0"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>المياحي TV - مشغل القنوات</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.0/dist/hls.min.js"></script>
   <style>
     body {
       font-family: 'Cairo', sans-serif;
@@ -16,221 +16,345 @@
       text-align: center;
     }
     header {
+      padding: 15px;
       background: #111;
-      padding: 10px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 22px;
+      font-size: 24px;
+      font-weight: bold;
       color: #FFD700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
     }
-    header button {
+    #refresh, #add-channel {
+      position: absolute;
+      top: 15px;
       background: #FFD700;
       color: #000;
       border: none;
-      padding: 7px 12px;
-      font-size: 14px;
-      border-radius: 5px;
-      cursor: pointer;
+      padding: 6px 12px;
+      border-radius: 6px;
       font-weight: bold;
+      cursor: pointer;
+    }
+    #refresh { left: 15px; }
+    #add-channel { right: 15px; }
+    #refresh:hover, #add-channel:hover {
+      background: #e5c100;
     }
     video {
       width: 100%;
+      height: auto;
       background: #000;
-      margin-top: 5px;
     }
-    #channelList {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      text-align: right;
+    /* شريط حالة التشغيل */
+    #player-status {
+      color: #FFD700;
+      padding: 10px;
+      font-size: 18px;
+      background: #111;
+      min-height: 20px;
     }
-    #channelList li {
+    #channels {
+      max-height: 300px;
+      overflow-y: auto;
       background: #111;
       padding: 10px;
-      margin: 2px 0;
+      text-align: right;
+    }
+    .channel {
+      padding: 10px;
+      background: #222;
+      margin-bottom: 5px;
+      border-radius: 8px;
+      color: #FFD700;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      transition: background 0.2s;
+    }
+    .channel:hover {
+      background: #333;
+    }
+    /* تنسيق القناة التي يتم تشغيلها حالياً */
+    .channel.playing {
+      background: #FFD700; 
+      color: #000;
+      border: 2px solid #000;
+    }
+    .channel.playing .channel-name {
+      font-weight: bold;
+    }
+    .channel.playing .channel-buttons button {
+      background: #000;
       color: #FFD700;
     }
-    .controls button {
+    /* نهاية تنسيق القناة التي يتم تشغيلها حالياً */
+    .channel-name {
+      flex: 1;
+      cursor: pointer;
+    }
+    .channel-buttons button {
+      margin-left: 5px;
       background: #FFD700;
       color: #000;
       border: none;
-      padding: 5px 8px;
-      margin-right: 5px;
+      padding: 4px 8px;
       border-radius: 4px;
+      font-weight: bold;
       cursor: pointer;
       font-size: 13px;
     }
-    #error {
-      color: #FFD700;
-      padding: 10px;
+    .channel-buttons button:hover {
+      background: #e5c100;
     }
 
-    /* نافذة النموذج */
-    #channelModal {
+    /* تصميم المودال */
+    #modal {
       position: fixed;
       top: 0; left: 0; right: 0; bottom: 0;
       background: rgba(0,0,0,0.7);
       display: none;
       justify-content: center;
       align-items: center;
-      z-index: 100;
+      z-index: 999;
     }
-    #modalContent {
-      background: #111;
+    #modal .box {
+      background: #222;
       padding: 20px;
       border-radius: 10px;
-      width: 80%;
+      width: 90%;
       max-width: 400px;
+      color: #FFD700;
+    }
+    #modal input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
       text-align: right;
     }
-    #modalContent h2 {
-      color: #FFD700;
-      margin-top: 0;
-    }
-    #modalContent input {
-      width: 100%;
-      padding: 10px;
-      margin: 10px 0;
-      border: none;
-      border-radius: 5px;
-      font-size: 14px;
-    }
-    #modalContent button {
+    #modal button {
       background: #FFD700;
       color: #000;
       border: none;
       padding: 8px 12px;
-      border-radius: 5px;
+      border-radius: 6px;
       font-weight: bold;
       cursor: pointer;
-      margin-top: 10px;
+      margin-left: 5px;
     }
   </style>
 </head>
 <body>
-  <header>
-    <button onclick="openModal('add')">إضافة قناة</button>
-    <h1>المياحي TV</h1>
-    <button onclick="location.reload()">تحديث</button>
-  </header>
+  <header>المياحي TV</header>
+  <button id="refresh" onclick="reloadFromM3U()">تحديث</button>
+  <button id="add-channel" onclick="openModal()">إضافة قناة</button>
 
-  <video id="videoPlayer" controls autoplay></video>
-  <p id="error"></p>
-  <ul id="channelList"></ul>
+  <video id="player" controls autoplay playsinline webkit-playsinline muted crossorigin="anonymous"></video>
+  <div id="player-status" dir="rtl">الرجاء اختيار قناة للبدء بالتشغيل</div>
+  <div id="channels"></div>
 
-  <!-- نافذة الإضافة والتعديل -->
-  <div id="channelModal">
-    <div id="modalContent">
-      <h2 id="modalTitle">إضافة قناة</h2>
-      <input type="text" id="channelName" placeholder="اسم القناة" />
-      <input type="text" id="channelUrl" placeholder="رابط القناة (m3u8 أو ts)" />
-      <button onclick="saveChannel()">حفظ</button>
-      <button onclick="closeModal()">إلغاء</button>
+  <div id="modal">
+    <div class="box">
+      <h3 id="modal-title">إضافة قناة</h3>
+      <input type="text" id="channel-name" placeholder="اسم القناة">
+      <input type="text" id="channel-url" placeholder="رابط القناة (m3u8 أو ts)">
+      <div style="text-align: left;">
+        <button onclick="saveModal()">حفظ</button>
+        <button onclick="closeModal()">إلغاء</button>
+      </div>
     </div>
   </div>
 
   <script>
-    const channelListEl = document.getElementById('channelList');
-    const player = document.getElementById('videoPlayer');
-    const errorEl = document.getElementById('error');
-
-    const modal = document.getElementById('channelModal');
-    const modalTitle = document.getElementById('modalTitle');
-    const nameInput = document.getElementById('channelName');
-    const urlInput = document.getElementById('channelUrl');
-
-    let channels = JSON.parse(localStorage.getItem('channels')) || [];
+    const m3uUrl = 'http://raw.githubusercontent.com/Hussain21e/Hwqq/main/bein4k.m3u';
+    const channelsContainer = document.getElementById('channels');
+    const video = document.getElementById('player');
+    const playerStatus = document.getElementById('player-status');
+    let hls = null;
+    let channels = [];
     let editIndex = null;
-    let currentHls = null;
+    let currentPlayingUrl = null;
 
-    function saveChannels() {
+    function initVideoAttrs() {
+      // إعداد خصائص الفيديو
+      video.setAttribute('playsinline', '');
+      video.setAttribute('webkit-playsinline', '');
+      video.setAttribute('autoplay', '');
+      video.muted = true;
+    }
+
+    function parseM3U(text) {
+      const lines = text.split(/\r?\n/).map(l => l.trim());
+      const parsed = [];
+      for (let i = 0; i < lines.length; i++) {
+        if (lines[i].startsWith('#EXTINF')) {
+          const name = lines[i].split(',')[1] || 'قناة غير معروفة';
+          const url = lines[i + 1];
+          if (url) parsed.push({ name, url: url.trim() });
+        }
+      }
+      return parsed;
+    }
+
+    function saveChannelsToStorage() {
+      // نستخدم التخزين المحلي هنا لتخزين القائمة المحدثة من الرابط الخارجي
       localStorage.setItem('channels', JSON.stringify(channels));
     }
 
-    function playChannel(url) {
-      if (currentHls) {
-        currentHls.destroy();
-        currentHls = null;
-      }
-      if (Hls.isSupported()) {
-        const hls = new Hls();
-        hls.loadSource(url);
-        hls.attachMedia(player);
-        currentHls = hls;
-        hls.on(Hls.Events.ERROR, () => {
-          errorEl.textContent = "فشل تحميل القناة";
-        });
-      } else if (player.canPlayType('application/vnd.apple.mpegurl')) {
-        player.src = url;
-      }
-      errorEl.textContent = "";
+    /*
+    *** تم إلغاء استخدام loadChannelsFromStorage()
+    *** لضمان التحديث التلقائي من رابط M3U
+    function loadChannelsFromStorage() {
+        // ...
+    }
+    */
+
+    function reloadFromM3U() {
+      channelsContainer.innerHTML = 'جاري تحميل وتحديث القنوات تلقائياً...';
+      fetch(m3uUrl)
+        .then(r => r.text())
+        .then(data => {
+          channels = parseM3U(data);
+          saveChannelsToStorage();
+          displayChannels();
+          if (channels.length > 0) playChannel(channels[0].url, channels[0].name);
+        })
+        .catch(() => channelsContainer.innerHTML = 'فشل تحميل القنوات. الرجاء التأكد من اتصال الإنترنت.');
     }
 
-    function renderChannels() {
-      channelListEl.innerHTML = "";
+    function displayChannels() {
+      channelsContainer.innerHTML = '';
+      if (channels.length === 0) {
+        channelsContainer.innerHTML = 'لا توجد قنوات حالياً. اضغط "إضافة قناة" أو "تحديث".';
+        return;
+      }
       channels.forEach((ch, index) => {
-        const li = document.createElement('li');
-        li.innerHTML = `
-          <span onclick="playChannel('${ch.url}')">${ch.name}</span>
-          <div class="controls">
-            <button onclick="openModal('edit', ${index})">تعديل</button>
-            <button onclick="deleteChannel(${index})">حذف</button>
-          </div>
-        `;
-        channelListEl.appendChild(li);
+        const div = document.createElement('div');
+        div.className = 'channel';
+
+        if (ch.url === currentPlayingUrl) {
+            div.classList.add('playing');
+        }
+
+        const nameSpan = document.createElement('div');
+        nameSpan.className = 'channel-name';
+        nameSpan.textContent = ch.name;
+        nameSpan.onclick = () => playChannel(ch.url, ch.name);
+
+        const btns = document.createElement('div');
+        btns.className = 'channel-buttons';
+
+        const editBtn = document.createElement('button');
+        editBtn.textContent = '✏️ تعديل';
+        editBtn.onclick = (e) => { e.stopPropagation(); openModal(index); };
+
+        const delBtn = document.createElement('button');
+        delBtn.textContent = '🗑 حذف';
+        delBtn.onclick = (e) => { e.stopPropagation(); deleteChannel(index); };
+
+        btns.appendChild(editBtn);
+        btns.appendChild(delBtn);
+        div.appendChild(nameSpan);
+        div.appendChild(btns);
+        channelsContainer.appendChild(div);
       });
     }
 
-    function openModal(mode, index = null) {
-      modal.style.display = "flex";
-      if (mode === 'add') {
-        modalTitle.textContent = "إضافة قناة";
-        nameInput.value = "";
-        urlInput.value = "";
-        editIndex = null;
-      } else if (mode === 'edit') {
-        modalTitle.textContent = "تعديل القناة";
-        nameInput.value = channels[index].name;
-        urlInput.value = channels[index].url;
-        editIndex = index;
+    function playChannel(url, name = 'قناة غير معروفة') {
+      if (!url) return;
+      url = url.trim();
+
+      currentPlayingUrl = url;
+      playerStatus.textContent = `جاري محاولة تشغيل: ${name} ...`;
+      displayChannels();
+
+      if (hls) { hls.destroy(); hls = null; }
+
+      if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = url;
+        video.play().then(() => {
+          playerStatus.textContent = `تشغيل: ${name} - (يرجى إلغاء كتم الصوت)`;
+          video.muted = false;
+        }).catch((e) => {
+          playerStatus.textContent = `تشغيل صامت: ${name} - (انقر على أيقونة السماعة)`;
+          video.muted = true;
+          video.play().catch(()=>{playerStatus.textContent = `خطأ في تشغيل القناة ${name}`;});
+        });
+      } 
+      else if (Hls.isSupported()) {
+        hls = new Hls({ autoStartLoad: true, debug: false, enableWorker: false });
+        
+        hls.on(Hls.Events.ERROR, (event, data) => {
+          if (data.fatal) {
+            playerStatus.textContent = `خطأ فادح: فشل تشغيل ${name} (${data.type}/${data.reason})`;
+            if (data.type === Hls.ErrorTypes.NETWORK_ERROR) {
+              hls.startLoad();
+            } else {
+              hls.destroy();
+            }
+          }
+        });
+
+        hls.loadSource(url);
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED, () => {
+          video.play().then(() => {
+            playerStatus.textContent = `تشغيل: ${name} - (يرجى إلغاء كتم الصوت)`;
+            video.muted = false;
+          }).catch((e) => {
+            playerStatus.textContent = `تشغيل صامت: ${name} - (انقر على أيقونة السماعة)`;
+            video.muted = true;
+            video.play().catch(()=>{playerStatus.textContent = `خطأ في تشغيل القناة ${name}`;});
+          });
+        });
+      } else {
+        playerStatus.textContent = 'المتصفح لا يدعم تشغيل HLS';
       }
     }
 
-    function closeModal() {
-      modal.style.display = "none";
+    // Modal functions
+    function openModal(index = null) {
+      editIndex = index;
+      document.getElementById('modal-title').textContent = index === null ? 'إضافة قناة' : 'تعديل قناة';
+      document.getElementById('channel-name').value = index === null ? '' : channels[index].name;
+      document.getElementById('channel-url').value = index === null ? '' : channels[index].url;
+      document.getElementById('modal').style.display = 'flex';
     }
-
-    function saveChannel() {
-      const name = nameInput.value.trim();
-      const url = urlInput.value.trim();
-      if (!name || !url) return alert("يرجى إدخال اسم القناة والرابط");
-
+    function closeModal() {
+      document.getElementById('modal').style.display = 'none';
+    }
+    function saveModal() {
+      const name = document.getElementById('channel-name').value.trim();
+      const url = document.getElementById('channel-url').value.trim();
+      if (!name || !url) { alert('الرجاء إدخال اسم ورابط القناة'); return; }
       if (editIndex === null) {
-        channels.push({ name, url });
+        channels.unshift({ name, url });
       } else {
         channels[editIndex] = { name, url };
       }
-      saveChannels();
-      renderChannels();
+      saveChannelsToStorage();
+      displayChannels();
       closeModal();
     }
-
     function deleteChannel(index) {
-      if (confirm("هل تريد حذف هذه القناة؟")) {
+      if (confirm('هل تريد حذف هذه القناة؟')) {
         channels.splice(index, 1);
-        saveChannels();
-        renderChannels();
+        saveChannelsToStorage();
+        displayChannels();
+        playerStatus.textContent = 'تم حذف القناة. الرجاء اختيار قناة أخرى.';
       }
     }
 
-    renderChannels();
+    // *** التعديل الرئيسي هنا ***
+    // عند تحميل المستند، يتم استدعاء reloadFromM3U() مباشرة لتحديث القنوات تلقائياً
+    document.addEventListener('DOMContentLoaded', () => {
+      initVideoAttrs();
+      reloadFromM3U(); // تحميل إجباري من رابط M3U عند فتح الصفحة
+    });
   </script>
 </body>
-  </html>
+</html>
