@@ -1,8 +1,12 @@
 #EXTM3U
 #EXTINF:-1,TOD beIN EVENTS 1
 http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356790&extension=m3u8
+#EXTINF:-1, bein sports 1 G
+http://dm.lion-ott.com/play/live.php?mac=00:1A:79:7d:ba:21&stream=1178433&extension=m3u8
 #EXTINF:-1,TOD beIN EVENTS 2
 http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356791&extension=m3u8
+#EXTINF:-1, bein sports 2
+http://dm.lion-ott.com:80/play/live.php?mac=00:1A:79:7d:ba:21&stream=1178432&extension=m3u8
 #EXTINF:-1,TOD beIN EVENTS 3
 http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356792&extension=m3u8
 #EXTINF:-1,TOD beIN EVENTS 4
