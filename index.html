@@ -166,7 +166,9 @@
   </div>
 
   <script>
-    const m3uUrl = 'http://raw.githubusercontent.com/Hussain21e/Hwqq/main/bein4k.m3u';
+    // ✅ تم إضافة corsproxy لتجاوز مشكلة CORS عند رفع الموقع
+    const m3uUrl = 'https://corsproxy.io/?http://raw.githubusercontent.com/Hussain21e/Hwqq/main/bein4k.m3u';
+
     const channelsContainer = document.getElementById('channels');
     const playerElement = document.getElementById('player');
     const player = videojs(playerElement, {
@@ -274,7 +276,7 @@
           enableWorker: true,
           backBufferLength: 1,
           maxLiveSyncPlaybackRate: 1.5,
-          startLevel: -1 // هذا السطر يفعّل اختيار الجودة تلقائياً حسب سرعة الإنترنت
+          startLevel: -1 // ✅ يضبط الجودة تلقائياً حسب سرعة الإنترنت
         });
         hlsInstance.loadSource(url);
         hlsInstance.attachMedia(playerElement);
