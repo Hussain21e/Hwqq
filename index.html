@@ -1,0 +1,129 @@
+<script>
+  const m3uUrl = './bein4k.m3u'; // ✅ تعديل الرابط ليكون من نفس الاستضافة
+  const channelsContainer = document.getElementById('channels');
+  const playerElement = document.getElementById('player');
+  const player = videojs(playerElement, {
+    autoplay: true,
+    controls: true,
+    preload: 'auto',
+    fluid: true
+  });
+
+  let hlsInstance = null;
+  let channels = [];
+  let editIndex = null;
+
+  function parseM3U(text) {
+    const lines = text.split(/\r?\n/).map(l => l.trim());
+    const parsed = [];
+    for (let i = 0; i < lines.length; i++) {
+      if (lines[i].startsWith('#EXTINF')) {
+        const name = lines[i].split(',')[1] || 'قناة غير معروفة';
+        const url = lines[i + 1];
+        if (url) parsed.push({ name, url: url.trim() });
+      }
+    }
+    return parsed;
+  }
+
+  function saveChannelsToStorage() {
+    localStorage.setItem('channels', JSON.stringify(channels));
+  }
+
+  function loadChannelsFromStorage() {
+    const saved = localStorage.getItem('channels');
+    if (saved) {
+      channels = JSON.parse(saved);
+      displayChannels();
+    } else {
+      reloadFromM3U();
+    }
+  }
+
+  function reloadFromM3U() {
+    channelsContainer.innerHTML = 'جاري تحميل القنوات...';
+    fetch(m3uUrl)
+      .then(r => r.text())
+      .then(data => {
+        channels = parseM3U(data);
+        saveChannelsToStorage();
+        displayChannels();
+        if (channels.length > 0) playChannel(channels[0].url);
+      })
+      .catch(() => channelsContainer.innerHTML = 'فشل تحميل القنوات');
+  }
+
+  function displayChannels() {
+    channelsContainer.innerHTML = '';
+    if (channels.length === 0) {
+      channelsContainer.innerHTML = 'لا توجد قنوات حالياً';
+      return;
+    }
+    channels.forEach((ch, index) => {
+      const div = document.createElement('div');
+      div.className = 'channel';
+
+      const nameSpan = document.createElement('div');
+      nameSpan.className = 'channel-name';
+      nameSpan.textContent = ch.name;
+      nameSpan.onclick = () => playChannel(ch.url);
+
+      const btns = document.createElement('div');
+      btns.className = 'channel-buttons';
+
+      const editBtn = document.createElement('button');
+      editBtn.textContent = '✏️ تعديل';
+      editBtn.onclick = (e) => { e.stopPropagation(); openModal(index); };
+
+      const delBtn = document.createElement('button');
+      delBtn.textContent = '🗑 حذف';
+      delBtn.onclick = (e) => { e.stopPropagation(); deleteChannel(index); };
+
+      btns.appendChild(editBtn);
+      btns.appendChild(delBtn);
+      div.appendChild(nameSpan);
+      div.appendChild(btns);
+      channelsContainer.appendChild(div);
+    });
+  }
+
+  function playChannel(url) {
+    if (!url) return;
+    url = url.trim();
+
+    if (hlsInstance) {
+      hlsInstance.destroy();
+      hlsInstance = null;
+    }
+
+    if (Hls.isSupported()) {
+      hlsInstance = new Hls({
+        autoStartLoad: true,
+        liveSyncDuration: 2,
+        liveMaxLatencyDuration: 4,
+        maxBufferLength: 5,
+        maxMaxBufferLength: 10,
+        lowLatencyMode: true,
+        enableWorker: true,
+        backBufferLength: 1,
+        maxLiveSyncPlaybackRate: 1.5,
+        startLevel: -1
+      });
+      hlsInstance.loadSource(url);
+      hlsInstance.attachMedia(playerElement);
+      hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
+        player.play();
+      });
+    } else if (playerElement.canPlayType('application/vnd.apple.mpegurl')) {
+      player.src({ src: url, type: 'application/x-mpegURL' });
+      player.play();
+    } else {
+      alert('المشغل لا يدعم هذا النوع من القنوات');
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    loadChannelsFromStorage();
+    reloadFromM3U();
+  });
+</script>
