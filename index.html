@@ -3,9 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>المياحي TV - مشغل القنوات</title>
+  <title>المياحي TV</title>
+
+  <!-- خط -->
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Video.js -->
+  <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+
+  <!-- hls.js -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.0/dist/hls.min.js"></script>
+
   <style>
     body {
       font-family: 'Cairo', sans-serif;
@@ -42,19 +51,13 @@
     #refresh:hover, #add-channel:hover {
       background: #e5c100;
     }
-    video {
+
+    .video-js {
       width: 100%;
       height: auto;
       background: #000;
     }
-    /* شريط حالة التشغيل */
-    #player-status {
-      color: #FFD700;
-      padding: 10px;
-      font-size: 18px;
-      background: #111;
-      min-height: 20px;
-    }
+
     #channels {
       max-height: 300px;
       overflow-y: auto;
@@ -71,25 +74,10 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      transition: background 0.2s;
     }
     .channel:hover {
       background: #333;
     }
-    /* تنسيق القناة التي يتم تشغيلها حالياً */
-    .channel.playing {
-      background: #FFD700; 
-      color: #000;
-      border: 2px solid #000;
-    }
-    .channel.playing .channel-name {
-      font-weight: bold;
-    }
-    .channel.playing .channel-buttons button {
-      background: #000;
-      color: #FFD700;
-    }
-    /* نهاية تنسيق القناة التي يتم تشغيلها حالياً */
     .channel-name {
       flex: 1;
       cursor: pointer;
@@ -134,7 +122,6 @@
       border: none;
       border-radius: 6px;
       font-size: 16px;
-      text-align: right;
     }
     #modal button {
       background: #FFD700;
@@ -153,10 +140,19 @@
   <button id="refresh" onclick="reloadFromM3U()">تحديث</button>
   <button id="add-channel" onclick="openModal()">إضافة قناة</button>
 
-  <video id="player" controls autoplay playsinline webkit-playsinline muted crossorigin="anonymous"></video>
-  <div id="player-status" dir="rtl">الرجاء اختيار قناة للبدء بالتشغيل</div>
+  <!-- Video.js Player -->
+  <video
+    id="player"
+    class="video-js vjs-default-skin"
+    controls
+    playsinline
+    webkit-playsinline
+    preload="auto"
+  ></video>
+
   <div id="channels"></div>
 
+  <!-- المودال -->
   <div id="modal">
     <div class="box">
       <h3 id="modal-title">إضافة قناة</h3>
@@ -172,20 +168,17 @@
   <script>
     const m3uUrl = 'http://raw.githubusercontent.com/Hussain21e/Hwqq/main/bein4k.m3u';
     const channelsContainer = document.getElementById('channels');
-    const video = document.getElementById('player');
-    const playerStatus = document.getElementById('player-status');
-    let hls = null;
+    const playerElement = document.getElementById('player');
+    const player = videojs(playerElement, {
+      autoplay: true,
+      controls: true,
+      preload: 'auto',
+      fluid: true
+    });
+
+    let hlsInstance = null;
     let channels = [];
     let editIndex = null;
-    let currentPlayingUrl = null;
-
-    function initVideoAttrs() {
-      // إعداد خصائص الفيديو
-      video.setAttribute('playsinline', '');
-      video.setAttribute('webkit-playsinline', '');
-      video.setAttribute('autoplay', '');
-      video.muted = true;
-    }
 
     function parseM3U(text) {
       const lines = text.split(/\r?\n/).map(l => l.trim());
@@ -201,49 +194,46 @@
     }
 
     function saveChannelsToStorage() {
-      // نستخدم التخزين المحلي هنا لتخزين القائمة المحدثة من الرابط الخارجي
       localStorage.setItem('channels', JSON.stringify(channels));
     }
 
-    /*
-    *** تم إلغاء استخدام loadChannelsFromStorage()
-    *** لضمان التحديث التلقائي من رابط M3U
     function loadChannelsFromStorage() {
-        // ...
+      const saved = localStorage.getItem('channels');
+      if (saved) {
+        channels = JSON.parse(saved);
+        displayChannels();
+      } else {
+        reloadFromM3U();
+      }
     }
-    */
 
     function reloadFromM3U() {
-      channelsContainer.innerHTML = 'جاري تحميل وتحديث القنوات تلقائياً...';
+      channelsContainer.innerHTML = 'جاري تحميل القنوات...';
       fetch(m3uUrl)
         .then(r => r.text())
         .then(data => {
           channels = parseM3U(data);
           saveChannelsToStorage();
           displayChannels();
-          if (channels.length > 0) playChannel(channels[0].url, channels[0].name);
+          if (channels.length > 0) playChannel(channels[0].url);
         })
-        .catch(() => channelsContainer.innerHTML = 'فشل تحميل القنوات. الرجاء التأكد من اتصال الإنترنت.');
+        .catch(() => channelsContainer.innerHTML = 'فشل تحميل القنوات');
     }
 
     function displayChannels() {
       channelsContainer.innerHTML = '';
       if (channels.length === 0) {
-        channelsContainer.innerHTML = 'لا توجد قنوات حالياً. اضغط "إضافة قناة" أو "تحديث".';
+        channelsContainer.innerHTML = 'لا توجد قنوات حالياً';
         return;
       }
       channels.forEach((ch, index) => {
         const div = document.createElement('div');
         div.className = 'channel';
 
-        if (ch.url === currentPlayingUrl) {
-            div.classList.add('playing');
-        }
-
         const nameSpan = document.createElement('div');
         nameSpan.className = 'channel-name';
         nameSpan.textContent = ch.name;
-        nameSpan.onclick = () => playChannel(ch.url, ch.name);
+        nameSpan.onclick = () => playChannel(ch.url);
 
         const btns = document.createElement('div');
         btns.className = 'channel-buttons';
@@ -264,59 +254,41 @@
       });
     }
 
-    function playChannel(url, name = 'قناة غير معروفة') {
+    function playChannel(url) {
       if (!url) return;
       url = url.trim();
 
-      currentPlayingUrl = url;
-      playerStatus.textContent = `جاري محاولة تشغيل: ${name} ...`;
-      displayChannels();
+      if (hlsInstance) {
+        hlsInstance.destroy();
+        hlsInstance = null;
+      }
 
-      if (hls) { hls.destroy(); hls = null; }
-
-      if (video.canPlayType('application/vnd.apple.mpegurl')) {
-        video.src = url;
-        video.play().then(() => {
-          playerStatus.textContent = `تشغيل: ${name} - (يرجى إلغاء كتم الصوت)`;
-          video.muted = false;
-        }).catch((e) => {
-          playerStatus.textContent = `تشغيل صامت: ${name} - (انقر على أيقونة السماعة)`;
-          video.muted = true;
-          video.play().catch(()=>{playerStatus.textContent = `خطأ في تشغيل القناة ${name}`;});
+      if (Hls.isSupported()) {
+        hlsInstance = new Hls({
+          autoStartLoad: true,
+          liveSyncDuration: 2,
+          liveMaxLatencyDuration: 4,
+          maxBufferLength: 5,
+          maxMaxBufferLength: 10,
+          lowLatencyMode: true,
+          enableWorker: true,
+          backBufferLength: 1,
+          maxLiveSyncPlaybackRate: 1.5,
+          startLevel: -1 // هذا السطر يفعّل اختيار الجودة تلقائياً حسب سرعة الإنترنت
         });
-      } 
-      else if (Hls.isSupported()) {
-        hls = new Hls({ autoStartLoad: true, debug: false, enableWorker: false });
-        
-        hls.on(Hls.Events.ERROR, (event, data) => {
-          if (data.fatal) {
-            playerStatus.textContent = `خطأ فادح: فشل تشغيل ${name} (${data.type}/${data.reason})`;
-            if (data.type === Hls.ErrorTypes.NETWORK_ERROR) {
-              hls.startLoad();
-            } else {
-              hls.destroy();
-            }
-          }
+        hlsInstance.loadSource(url);
+        hlsInstance.attachMedia(playerElement);
+        hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
+          player.play();
         });
-
-        hls.loadSource(url);
-        hls.attachMedia(video);
-        hls.on(Hls.Events.MANIFEST_PARSED, () => {
-          video.play().then(() => {
-            playerStatus.textContent = `تشغيل: ${name} - (يرجى إلغاء كتم الصوت)`;
-            video.muted = false;
-          }).catch((e) => {
-            playerStatus.textContent = `تشغيل صامت: ${name} - (انقر على أيقونة السماعة)`;
-            video.muted = true;
-            video.play().catch(()=>{playerStatus.textContent = `خطأ في تشغيل القناة ${name}`;});
-          });
-        });
+      } else if (playerElement.canPlayType('application/vnd.apple.mpegurl')) {
+        player.src({ src: url, type: 'application/x-mpegURL' });
+        player.play();
       } else {
-        playerStatus.textContent = 'المتصفح لا يدعم تشغيل HLS';
+        alert('المشغل لا يدعم هذا النوع من القنوات');
       }
     }
 
-    // Modal functions
     function openModal(index = null) {
       editIndex = index;
       document.getElementById('modal-title').textContent = index === null ? 'إضافة قناة' : 'تعديل قناة';
@@ -332,7 +304,7 @@
       const url = document.getElementById('channel-url').value.trim();
       if (!name || !url) { alert('الرجاء إدخال اسم ورابط القناة'); return; }
       if (editIndex === null) {
-        channels.unshift({ name, url });
+        channels.push({ name, url });
       } else {
         channels[editIndex] = { name, url };
       }
@@ -340,20 +312,17 @@
       displayChannels();
       closeModal();
     }
+
     function deleteChannel(index) {
       if (confirm('هل تريد حذف هذه القناة؟')) {
         channels.splice(index, 1);
         saveChannelsToStorage();
         displayChannels();
-        playerStatus.textContent = 'تم حذف القناة. الرجاء اختيار قناة أخرى.';
       }
     }
 
-    // *** التعديل الرئيسي هنا ***
-    // عند تحميل المستند، يتم استدعاء reloadFromM3U() مباشرة لتحديث القنوات تلقائياً
     document.addEventListener('DOMContentLoaded', () => {
-      initVideoAttrs();
-      reloadFromM3U(); // تحميل إجباري من رابط M3U عند فتح الصفحة
+      loadChannelsFromStorage();
     });
   </script>
 </body>
