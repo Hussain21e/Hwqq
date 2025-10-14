@@ -1,331 +1,53 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>المياحي TV</title>
-
-  <!-- خط -->
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
-
-  <!-- Video.js -->
-  <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
-  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
-
-  <!-- hls.js -->
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.0/dist/hls.min.js"></script>
-
-  <style>
-    body {
-      font-family: 'Cairo', sans-serif;
-      background: #000;
-      color: #FFD700;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-    header {
-      padding: 15px;
-      background: #111;
-      font-size: 24px;
-      font-weight: bold;
-      color: #FFD700;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-    }
-    #refresh, #add-channel {
-      position: absolute;
-      top: 15px;
-      background: #FFD700;
-      color: #000;
-      border: none;
-      padding: 6px 12px;
-      border-radius: 6px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    #refresh { left: 15px; }
-    #add-channel { right: 15px; }
-    #refresh:hover, #add-channel:hover {
-      background: #e5c100;
-    }
-
-    .video-js {
-      width: 100%;
-      height: auto;
-      background: #000;
-    }
-
-    #channels {
-      max-height: 300px;
-      overflow-y: auto;
-      background: #111;
-      padding: 10px;
-      text-align: right;
-    }
-    .channel {
-      padding: 10px;
-      background: #222;
-      margin-bottom: 5px;
-      border-radius: 8px;
-      color: #FFD700;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .channel:hover {
-      background: #333;
-    }
-    .channel-name {
-      flex: 1;
-      cursor: pointer;
-    }
-    .channel-buttons button {
-      margin-left: 5px;
-      background: #FFD700;
-      color: #000;
-      border: none;
-      padding: 4px 8px;
-      border-radius: 4px;
-      font-weight: bold;
-      cursor: pointer;
-      font-size: 13px;
-    }
-    .channel-buttons button:hover {
-      background: #e5c100;
-    }
-
-    /* تصميم المودال */
-    #modal {
-      position: fixed;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(0,0,0,0.7);
-      display: none;
-      justify-content: center;
-      align-items: center;
-      z-index: 999;
-    }
-    #modal .box {
-      background: #222;
-      padding: 20px;
-      border-radius: 10px;
-      width: 90%;
-      max-width: 400px;
-      color: #FFD700;
-    }
-    #modal input {
-      width: 100%;
-      padding: 8px;
-      margin-bottom: 10px;
-      border: none;
-      border-radius: 6px;
-      font-size: 16px;
-    }
-    #modal button {
-      background: #FFD700;
-      color: #000;
-      border: none;
-      padding: 8px 12px;
-      border-radius: 6px;
-      font-weight: bold;
-      cursor: pointer;
-      margin-left: 5px;
-    }
-  </style>
-</head>
-<body>
-  <header>المياحي TV</header>
-  <button id="refresh" onclick="reloadFromM3U()">تحديث</button>
-  <button id="add-channel" onclick="openModal()">إضافة قناة</button>
-
-  <!-- Video.js Player -->
-  <video
-    id="player"
-    class="video-js vjs-default-skin"
-    controls
-    playsinline
-    webkit-playsinline
-    preload="auto"
-  ></video>
-
-  <div id="channels"></div>
-
-  <!-- المودال -->
-  <div id="modal">
-    <div class="box">
-      <h3 id="modal-title">إضافة قناة</h3>
-      <input type="text" id="channel-name" placeholder="اسم القناة">
-      <input type="text" id="channel-url" placeholder="رابط القناة (m3u8 أو ts)">
-      <div style="text-align: left;">
-        <button onclick="saveModal()">حفظ</button>
-        <button onclick="closeModal()">إلغاء</button>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    // ✅ تم إضافة corsproxy لتجاوز مشكلة CORS عند رفع الموقع
-    const m3uUrl = 'https://corsproxy.io/?http://raw.githubusercontent.com/Hussain21e/Hwqq/main/bein4k.m3u';
-
-    const channelsContainer = document.getElementById('channels');
-    const playerElement = document.getElementById('player');
-    const player = videojs(playerElement, {
-      autoplay: true,
-      controls: true,
-      preload: 'auto',
-      fluid: true
-    });
-
-    let hlsInstance = null;
-    let channels = [];
-    let editIndex = null;
-
-    function parseM3U(text) {
-      const lines = text.split(/\r?\n/).map(l => l.trim());
-      const parsed = [];
-      for (let i = 0; i < lines.length; i++) {
-        if (lines[i].startsWith('#EXTINF')) {
-          const name = lines[i].split(',')[1] || 'قناة غير معروفة';
-          const url = lines[i + 1];
-          if (url) parsed.push({ name, url: url.trim() });
-        }
-      }
-      return parsed;
-    }
-
-    function saveChannelsToStorage() {
-      localStorage.setItem('channels', JSON.stringify(channels));
-    }
-
-    function loadChannelsFromStorage() {
-      const saved = localStorage.getItem('channels');
-      if (saved) {
-        channels = JSON.parse(saved);
-        displayChannels();
-      } else {
-        reloadFromM3U();
-      }
-    }
-
-    function reloadFromM3U() {
-      channelsContainer.innerHTML = 'جاري تحميل القنوات...';
-      fetch(m3uUrl)
-        .then(r => r.text())
-        .then(data => {
-          channels = parseM3U(data);
-          saveChannelsToStorage();
-          displayChannels();
-          if (channels.length > 0) playChannel(channels[0].url);
-        })
-        .catch(() => channelsContainer.innerHTML = 'فشل تحميل القنوات');
-    }
-
-    function displayChannels() {
-      channelsContainer.innerHTML = '';
-      if (channels.length === 0) {
-        channelsContainer.innerHTML = 'لا توجد قنوات حالياً';
-        return;
-      }
-      channels.forEach((ch, index) => {
-        const div = document.createElement('div');
-        div.className = 'channel';
-
-        const nameSpan = document.createElement('div');
-        nameSpan.className = 'channel-name';
-        nameSpan.textContent = ch.name;
-        nameSpan.onclick = () => playChannel(ch.url);
-
-        const btns = document.createElement('div');
-        btns.className = 'channel-buttons';
-
-        const editBtn = document.createElement('button');
-        editBtn.textContent = '✏️ تعديل';
-        editBtn.onclick = (e) => { e.stopPropagation(); openModal(index); };
-
-        const delBtn = document.createElement('button');
-        delBtn.textContent = '🗑 حذف';
-        delBtn.onclick = (e) => { e.stopPropagation(); deleteChannel(index); };
-
-        btns.appendChild(editBtn);
-        btns.appendChild(delBtn);
-        div.appendChild(nameSpan);
-        div.appendChild(btns);
-        channelsContainer.appendChild(div);
-      });
-    }
-
-    function playChannel(url) {
-      if (!url) return;
-      url = url.trim();
-
-      if (hlsInstance) {
-        hlsInstance.destroy();
-        hlsInstance = null;
-      }
-
-      if (Hls.isSupported()) {
-        hlsInstance = new Hls({
-          autoStartLoad: true,
-          liveSyncDuration: 2,
-          liveMaxLatencyDuration: 4,
-          maxBufferLength: 5,
-          maxMaxBufferLength: 10,
-          lowLatencyMode: true,
-          enableWorker: true,
-          backBufferLength: 1,
-          maxLiveSyncPlaybackRate: 1.5,
-          startLevel: -1 // ✅ يضبط الجودة تلقائياً حسب سرعة الإنترنت
-        });
-        hlsInstance.loadSource(url);
-        hlsInstance.attachMedia(playerElement);
-        hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
-          player.play();
-        });
-      } else if (playerElement.canPlayType('application/vnd.apple.mpegurl')) {
-        player.src({ src: url, type: 'application/x-mpegURL' });
-        player.play();
-      } else {
-        alert('المشغل لا يدعم هذا النوع من القنوات');
-      }
-    }
-
-    function openModal(index = null) {
-      editIndex = index;
-      document.getElementById('modal-title').textContent = index === null ? 'إضافة قناة' : 'تعديل قناة';
-      document.getElementById('channel-name').value = index === null ? '' : channels[index].name;
-      document.getElementById('channel-url').value = index === null ? '' : channels[index].url;
-      document.getElementById('modal').style.display = 'flex';
-    }
-    function closeModal() {
-      document.getElementById('modal').style.display = 'none';
-    }
-    function saveModal() {
-      const name = document.getElementById('channel-name').value.trim();
-      const url = document.getElementById('channel-url').value.trim();
-      if (!name || !url) { alert('الرجاء إدخال اسم ورابط القناة'); return; }
-      if (editIndex === null) {
-        channels.push({ name, url });
-      } else {
-        channels[editIndex] = { name, url };
-      }
-      saveChannelsToStorage();
-      displayChannels();
-      closeModal();
-    }
-
-    function deleteChannel(index) {
-      if (confirm('هل تريد حذف هذه القناة؟')) {
-        channels.splice(index, 1);
-        saveChannelsToStorage();
-        displayChannels();
-      }
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-      loadChannelsFromStorage();
-    });
-  </script>
-</body>
-</html>
+#EXTM3U
+#EXTINF:-1,TOD beIN EVENTS 1
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356790&extension=m3u8
+#EXTINF:-1,TOD beIN EVENTS 2
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356791&extension=m3u8
+#EXTINF:-1,TOD beIN EVENTS 3
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356792&extension=m3u8
+#EXTINF:-1,TOD beIN EVENTS 4
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356793&extension=m3u8
+#EXTINF:-1,TOD beIN EVENTS 5
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356794&extension=m3u8
+#EXTINF:-1,beIN SPORTS NEWS ᵁᴴᴰ
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315744&extension=m3u8
+#EXTINF:-1,beIN SPORTS GLOBAL ᵁᴴᴰ
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315745&extension=m3u8
+#EXTINF:-1,TOD 360 ᵁᴴᴰ
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=341756&extension=m3u8
+#EXTINF:-1,beIN SPORTS 1 ULTRA
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315710&extension=m3u8
+#EXTINF:-1,beIN SPORTS 2 ULTRA
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315711&extension=m3u8
+#EXTINF:-1,beIN SPORTS 3 ULTRA
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315718&extension=m3u8
+#EXTINF:-1,beIN SPORTS 4 ULTRA
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315712&extension=m3u8
+#EXTINF:-1,beIN UHD 2160P
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=190369&extension=m3u8
+#EXTINF:-1,beIN Sports 1 4K
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=114053&extension=m3u8
+#EXTINF:-1,8K: beIN SP⚽RTS 1 ʰᵉᵛᶜ
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1100423&extension=m3u8
+#EXTINF:-1,beIN Sports 1 UHD
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=3854&extension=m3u8
+#EXTINF:-1,beIN Sports 1 Nexus 4K
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1269943&extension=m3u8
+#EXTINF:-1,beIN Sports 2 4K
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=114052&extension=m3u8
+#EXTINF:-1,beIN Sports 2 UHD
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=3853&extension=m3u8
+#EXTINF:-1,beIN Sports 2 Nexus 4K
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1269944&extension=m3u8
+#EXTINF:-1,8K: beIN SP⚽RTS 2 ʰᵉᵛᶜ
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1100422&extension=m3u8
+#EXTINF:-1,beIN Sports 3 4K
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=114050&extension=m3u8
+#EXTINF:-1,beIN Sports 3 UHD
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=3851&extension=m3u8
+#EXTINF:-1,beIN Sports 3 Nexus 4K
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1269945&extension=m3u8
+#EXTINF:-1,8K: beIN SP⚽RTS 3 ʰᵉᵛᶜ
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1100421&extension=m3u8
+#EXTINF:-1,beIN Sports 4 4K
+http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=114049&extension=m3u8
