@@ -1,53 +1,129 @@
-#EXTM3U
-#EXTINF:-1,TOD beIN EVENTS 1
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356790&extension=m3u8
-#EXTINF:-1,TOD beIN EVENTS 2
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356791&extension=m3u8
-#EXTINF:-1,TOD beIN EVENTS 3
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356792&extension=m3u8
-#EXTINF:-1,TOD beIN EVENTS 4
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356793&extension=m3u8
-#EXTINF:-1,TOD beIN EVENTS 5
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356794&extension=m3u8
-#EXTINF:-1,beIN SPORTS NEWS ᵁᴴᴰ
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315744&extension=m3u8
-#EXTINF:-1,beIN SPORTS GLOBAL ᵁᴴᴰ
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315745&extension=m3u8
-#EXTINF:-1,TOD 360 ᵁᴴᴰ
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=341756&extension=m3u8
-#EXTINF:-1,beIN SPORTS 1 ULTRA
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315710&extension=m3u8
-#EXTINF:-1,beIN SPORTS 2 ULTRA
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315711&extension=m3u8
-#EXTINF:-1,beIN SPORTS 3 ULTRA
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315718&extension=m3u8
-#EXTINF:-1,beIN SPORTS 4 ULTRA
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315712&extension=m3u8
-#EXTINF:-1,beIN UHD 2160P
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=190369&extension=m3u8
-#EXTINF:-1,beIN Sports 1 4K
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=114053&extension=m3u8
-#EXTINF:-1,8K: beIN SP⚽RTS 1 ʰᵉᵛᶜ
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1100423&extension=m3u8
-#EXTINF:-1,beIN Sports 1 UHD
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=3854&extension=m3u8
-#EXTINF:-1,beIN Sports 1 Nexus 4K
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1269943&extension=m3u8
-#EXTINF:-1,beIN Sports 2 4K
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=114052&extension=m3u8
-#EXTINF:-1,beIN Sports 2 UHD
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=3853&extension=m3u8
-#EXTINF:-1,beIN Sports 2 Nexus 4K
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1269944&extension=m3u8
-#EXTINF:-1,8K: beIN SP⚽RTS 2 ʰᵉᵛᶜ
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1100422&extension=m3u8
-#EXTINF:-1,beIN Sports 3 4K
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=114050&extension=m3u8
-#EXTINF:-1,beIN Sports 3 UHD
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=3851&extension=m3u8
-#EXTINF:-1,beIN Sports 3 Nexus 4K
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1269945&extension=m3u8
-#EXTINF:-1,8K: beIN SP⚽RTS 3 ʰᵉᵛᶜ
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1100421&extension=m3u8
-#EXTINF:-1,beIN Sports 4 4K
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=114049&extension=m3u8
+<script>
+  const m3uUrl = './bein4k.m3u'; // ✅ تعديل الرابط ليكون من نفس الاستضافة
+  const channelsContainer = document.getElementById('channels');
+  const playerElement = document.getElementById('player');
+  const player = videojs(playerElement, {
+    autoplay: true,
+    controls: true,
+    preload: 'auto',
+    fluid: true
+  });
+
+  let hlsInstance = null;
+  let channels = [];
+  let editIndex = null;
+
+  function parseM3U(text) {
+    const lines = text.split(/\r?\n/).map(l => l.trim());
+    const parsed = [];
+    for (let i = 0; i < lines.length; i++) {
+      if (lines[i].startsWith('#EXTINF')) {
+        const name = lines[i].split(',')[1] || 'قناة غير معروفة';
+        const url = lines[i + 1];
+        if (url) parsed.push({ name, url: url.trim() });
+      }
+    }
+    return parsed;
+  }
+
+  function saveChannelsToStorage() {
+    localStorage.setItem('channels', JSON.stringify(channels));
+  }
+
+  function loadChannelsFromStorage() {
+    const saved = localStorage.getItem('channels');
+    if (saved) {
+      channels = JSON.parse(saved);
+      displayChannels();
+    } else {
+      reloadFromM3U();
+    }
+  }
+
+  function reloadFromM3U() {
+    channelsContainer.innerHTML = 'جاري تحميل القنوات...';
+    fetch(m3uUrl)
+      .then(r => r.text())
+      .then(data => {
+        channels = parseM3U(data);
+        saveChannelsToStorage();
+        displayChannels();
+        if (channels.length > 0) playChannel(channels[0].url);
+      })
+      .catch(() => channelsContainer.innerHTML = 'فشل تحميل القنوات');
+  }
+
+  function displayChannels() {
+    channelsContainer.innerHTML = '';
+    if (channels.length === 0) {
+      channelsContainer.innerHTML = 'لا توجد قنوات حالياً';
+      return;
+    }
+    channels.forEach((ch, index) => {
+      const div = document.createElement('div');
+      div.className = 'channel';
+
+      const nameSpan = document.createElement('div');
+      nameSpan.className = 'channel-name';
+      nameSpan.textContent = ch.name;
+      nameSpan.onclick = () => playChannel(ch.url);
+
+      const btns = document.createElement('div');
+      btns.className = 'channel-buttons';
+
+      const editBtn = document.createElement('button');
+      editBtn.textContent = '✏️ تعديل';
+      editBtn.onclick = (e) => { e.stopPropagation(); openModal(index); };
+
+      const delBtn = document.createElement('button');
+      delBtn.textContent = '🗑 حذف';
+      delBtn.onclick = (e) => { e.stopPropagation(); deleteChannel(index); };
+
+      btns.appendChild(editBtn);
+      btns.appendChild(delBtn);
+      div.appendChild(nameSpan);
+      div.appendChild(btns);
+      channelsContainer.appendChild(div);
+    });
+  }
+
+  function playChannel(url) {
+    if (!url) return;
+    url = url.trim();
+
+    if (hlsInstance) {
+      hlsInstance.destroy();
+      hlsInstance = null;
+    }
+
+    if (Hls.isSupported()) {
+      hlsInstance = new Hls({
+        autoStartLoad: true,
+        liveSyncDuration: 2,
+        liveMaxLatencyDuration: 4,
+        maxBufferLength: 5,
+        maxMaxBufferLength: 10,
+        lowLatencyMode: true,
+        enableWorker: true,
+        backBufferLength: 1,
+        maxLiveSyncPlaybackRate: 1.5,
+        startLevel: -1
+      });
+      hlsInstance.loadSource(url);
+      hlsInstance.attachMedia(playerElement);
+      hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
+        player.play();
+      });
+    } else if (playerElement.canPlayType('application/vnd.apple.mpegurl')) {
+      player.src({ src: url, type: 'application/x-mpegURL' });
+      player.play();
+    } else {
+      alert('المشغل لا يدعم هذا النوع من القنوات');
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    loadChannelsFromStorage();
+    reloadFromM3U();
+  });
+</script>
