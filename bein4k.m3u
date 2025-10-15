@@ -33,6 +33,8 @@ http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=2541&exte
 http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=245836&extension=m3u8
 #EXTINF:-1,beIN Sports 1 Nexus SD نت ضعيف 
 http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=1269952&extension=m3u8
+#EXTINF:-1,beIN Sports 1 Nexus جدا SD نت ضعيف
+http://michalbak.online:80/play/live.php?mac=00:1A:79:00:28:D3&stream=1836254&extension=m3u8
 #EXTINF:-1,beIN Sports 2 SD نت ضعيف 
 http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=2540&extension=m3u8
 #EXTINF:-1,beIN SPORTS 2 SD نت ضعيف BEE
