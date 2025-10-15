@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>المياحي TV</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+    <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.15.0/videojs-contrib-hls.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-dash/2.9.2/videojs-dash.min.js"></script>
+
+    <style>
+        body{font-family:'Cairo',sans-serif;background:#000;color:#FFD700;margin:0;padding:0;text-align:center}
+        header{padding:15px;background:#111;font-size:24px;font-weight:bold;color:#FFD700;display:flex;justify-content:center;align-items:center;position:relative}
+        #refresh, #share-btn {
+            position:absolute;
+            background:#FFD700;
+            color:#000;
+            border:none;
+            padding:6px 12px;
+            border-radius:6px;
+            font-weight:bold;
+            cursor:pointer;
+            transition:background .3s;
+            top: 15px;
+        }
+        #refresh{left:15px;}
+        #share-btn{right:15px;}
+        #refresh:hover, #share-btn:hover {background:#e5c100}
+        .video-js{width:100%;height:auto;background:#000}
+        #channels-container{background:#111;padding:10px;text-align:right;border-top:3px solid #FFD700}
+        .section-title{background:#333;color:#FFD700;padding:12px 10px;margin-top:5px;font-weight:bold;border-radius:8px;text-align:right;border-right:4px solid #FFD700;cursor:pointer;transition:background .3s,border-right-color .3s}
+        .section-title:hover{background:#444}
+        .section-title.active{background:#FFD700;color:#000;border-right-color:#000}
+        .channels-list{display:none;padding:5px 0 10px 0;max-height:300px;overflow-y:auto}
+        .channels-list.active{display:block}
+        .channel{padding:10px;background:#222;margin-bottom:5px;border-radius:8px;color:#FFD700;cursor:pointer;transition:background .3s,transform .1s;border-right:4px solid transparent;text-align:right}
+        .channel:hover{background:#333;transform:translateX(-2px)}
+        .channel.active{background:#FFD700;color:#000;font-weight:bold;border-right-color:#000}
+        .message{padding:20px;color:#FFD700;font-size:18px;text-align:center}
+    </style>
+</head>
+<body>
+    <header>
+        المياحي TV
+        <button id="refresh" onclick="PlayerApp.reloadFromM3U()">تحديث</button>
+        <button id="share-btn" onclick="shareCurrentLink()">مشاركة</button>
+    </header>
+
+    <video id="player" class="video-js vjs-default-skin" controls playsinline webkit-playsinline preload="auto"></video>
+    <div id="channels-container"></div>
+
+    <script>
+        let currentPlayingUrl = null;
+        let retryCount = 0;
+
+        const PlayerApp = (() => {
+            const M3U_URL = 'http://raw.githubusercontent.com/Hussain21e/Hwqq/main/bein4k.m3u';
+            const CHANNELS_STORAGE_KEY = 'channels';
+            const LAST_CHANNEL_STORAGE_KEY = 'last_channel_url';
+            const LAST_SECTION_STORAGE_KEY = 'last_active_section';
+
+            const channelsContainer = document.getElementById('channels-container');
+            const playerElement = document.getElementById('player');
+
+            let channels = [];
+            let currentPlayer = null;
+            let currentChannelUrl = null;
+
+            const SECTIONS = [
+                { id: 'low-bw', title: '📶 إنترنت ضعيف', filter: ch => ch.name.includes('ضعيف') },
+                { id: 'regular', title: '🌐 القنوات العادية', filter: ch => !ch.name.includes('ضعيف') }
+            ];
+
+            const determineSourceType = url => {
+                url = url.toLowerCase();
+                if (url.includes('.m3u8') || url.includes('.m3u')) {
+                    return 'application/x-mpegURL';
+                } else if (url.includes('.mpd')) {
+                    return 'application/dash+xml';
+                } else if (url.includes('.mp4')) {
+                    return 'video/mp4';
+                } else if (url.includes('.webm')) {
+                    return 'video/webm';
+                }
+                return 'application/x-mpegURL';
+            };
+
+            const retryPlay = () => {
+                const maxRetries = 3;
+                if (retryCount < maxRetries) {
+                    retryCount++;
+                    const delay = Math.pow(2, retryCount) * 1000;
+                    console.log(`خطأ في التشغيل. المحاولة رقم ${retryCount} بعد ${delay / 1000} ثوانٍ...`);
+                    setTimeout(() => {
+                        currentPlayer.reset();
+                        currentPlayer.src({ src: currentChannelUrl, type: determineSourceType(currentChannelUrl) });
+                        currentPlayer.play().catch(err => {
+                            console.error("فشل إعادة التشغيل:", err);
+                            retryPlay();
+                        });
+                    }, delay);
+                } else {
+                    alert(`❌ فشل تشغيل القناة بعد ${maxRetries} محاولات. الرجاء التحقق من الرابط أو اختيار قناة أخرى.`);
+                    retryCount = 0;
+                }
+            };
+
+            const initializePlayer = () => {
+                const playerOptions = {
+                    autoplay: true,
+                    controls: true,
+                    preload: 'metadata',
+                    fluid: true,
+                    techOrder: ['html5'],
+                    loadingSpinner: true,
+                    html5: {
+                        hls: {
+                            withCredentials: false,
+                            liveMaxBufferLength: 2,
+                            liveSyncDurationCount: 3,
+                            bandwidth: 300000,
+                            enableWorker: true,
+                            liveMaxQualityDuration: 5,
+                        },
+                        dash: {
+                            withCredentials: false,
+                            liveCatchupLatency: 2,
+                            liveCatchupMinDrift: 0.05,
+                        }
+                    }
+                };
+
+                if (currentPlayer) {
+                    currentPlayer.dispose();
+                }
+
+                currentPlayer = videojs(playerElement, playerOptions);
+
+                currentPlayer.on('playing', () => { retryCount = 0; });
+                currentPlayer.on('error', e => {
+                    const error = currentPlayer.error();
+                    console.error('VideoJS Error:', error);
+                    if (error) retryPlay();
+                });
+            };
+
+            const parseM3U = text => {
+                const lines = text.split(/\r?\n/).map(l => l.trim());
+                const parsed = [];
+                for (let i = 0; i < lines.length; i++) {
+                    if (lines[i].startsWith('#EXTINF')) {
+                        const nameMatch = lines[i].match(/,(.*)/);
+                        const name = nameMatch ? nameMatch[1].trim() : 'قناة غير معروفة';
+                        const url = lines[i + 1];
+                        if (url && url.startsWith('http')) {
+                            parsed.push({ name, url: url.trim() });
+                        }
+                    }
+                }
+                return parsed;
+            };
+
+            const saveChannelsToStorage = () => { localStorage.setItem(CHANNELS_STORAGE_KEY, JSON.stringify(channels)) };
+            const saveLastChannel = url => { localStorage.setItem(LAST_CHANNEL_STORAGE_KEY, url) };
+            const getLastChannelUrl = () => localStorage.getItem(LAST_CHANNEL_STORAGE_KEY);
+            const saveLastActiveSection = id => { localStorage.setItem(LAST_SECTION_STORAGE_KEY, id) };
+            const getLastActiveSection = () => localStorage.getItem(LAST_SECTION_STORAGE_KEY) || SECTIONS[0].id;
+
+            const loadChannelsFromStorage = () => {
+                const saved = localStorage.getItem(CHANNELS_STORAGE_KEY);
+                if (saved) {
+                    try {
+                        channels = JSON.parse(saved);
+                        displaySections();
+                        const lastUrl = getLastChannelUrl();
+                        const initialUrl = (lastUrl && channels.some(ch => ch.url === lastUrl)) ? lastUrl : (channels.length > 0 ? channels[0].url : null);
+                        if (initialUrl) { playChannel(initialUrl) }
+                        toggleSection(getLastActiveSection());
+                    } catch (e) {
+                        console.error('فشل في تحليل بيانات القنوات المخزنة.', e);
+                        reloadFromM3U();
+                    }
+                } else {
+                    reloadFromM3U();
+                }
+            };
+
+            const reloadFromM3U = async () => {
+                channelsContainer.innerHTML = '<div class="message">جاري تحميل القنوات من المصدر... 🔄</div>';
+                try {
+                    const response = await fetch(M3U_URL);
+                    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                    const data = await response.text();
+
+                    channels = parseM3U(data);
+                    saveChannelsToStorage();
+                    displaySections();
+                    const lastUrl = getLastChannelUrl();
+                    const initialUrl = (lastUrl && channels.some(ch => ch.url === lastUrl)) ? lastUrl : (channels.length > 0 ? channels[0].url : null);
+                    if (initialUrl) { playChannel(initialUrl) }
+                    toggleSection(getLastActiveSection());
+                } catch (error) {
+                    console.error('Fetch Error:', error);
+                    channelsContainer.innerHTML = '<div class="message" style="color:#FF6347;">فشل تحميل القنوات. تحقق من الرابط وحاول مجدداً. ❌</div>';
+                }
+            };
+
+            const displaySections = () => {
+                channelsContainer.innerHTML = '';
+                if (channels.length === 0) {
+                    channelsContainer.innerHTML = '<div class="message">لا توجد قنوات حالياً. حاول التحديث.</div>';
+                    return;
+                }
+
+                SECTIONS.forEach(section => {
+                    let filteredChannels = channels.filter(section.filter);
+                    if (filteredChannels.length === 0) return;
+
+                    filteredChannels.sort((a, b) => a.name.localeCompare(b.name, 'ar', { sensitivity: 'base' }));
+
+                    const titleDiv = document.createElement('div');
+                    titleDiv.className = 'section-title';
+                    titleDiv.id = `title-${section.id}`;
+                    titleDiv.textContent = section.title;
+                    titleDiv.onclick = () => toggleSection(section.id);
+                    channelsContainer.appendChild(titleDiv);
+
+                    const listDiv = document.createElement('div');
+                    listDiv.className = 'channels-list';
+                    listDiv.id = `list-${section.id}`;
+
+                    filteredChannels.forEach(ch => {
+                        const div = document.createElement('div');
+                        div.className = 'channel';
+                        if (ch.url === currentChannelUrl) { div.classList.add('active') }
+                        div.textContent = ch.name;
+                        div.onclick = () => playChannel(ch.url);
+                        listDiv.appendChild(div);
+                    });
+
+                    channelsContainer.appendChild(listDiv);
+                });
+            };
+
+            const toggleSection = activeId => {
+                document.querySelectorAll('.section-title').forEach(title => title.classList.remove('active'));
+                document.querySelectorAll('.channels-list').forEach(list => list.classList.remove('active'));
+
+                const activeTitle = document.getElementById(`title-${activeId}`);
+                const activeList = document.getElementById(`list-${activeId}`);
+
+                if (activeTitle && activeList) {
+                    activeTitle.classList.add('active');
+                    activeList.classList.add('active');
+                    saveLastActiveSection(activeId);
+                }
+
+                if(activeTitle) {
+                    activeTitle.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            };
+
+            const highlightActiveChannel = url => {
+                document.querySelectorAll('.channel').forEach(el => el.classList.remove('active'));
+                const newActiveChannel = Array.from(document.querySelectorAll('.channel')).find(el => {
+                    const channelData = channels.find(ch => ch.url === url);
+                    return channelData && el.textContent === channelData.name;
+                });
+
+                if (newActiveChannel) {
+                    newActiveChannel.classList.add('active');
+                    const activeSection = SECTIONS.find(s => s.filter({ name: newActiveChannel.textContent }));
+                    if (activeSection) {
+                        toggleSection(activeSection.id);
+                        newActiveChannel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    }
+                }
+            };
+
+            const playChannel = url => {
+                currentChannelUrl = url;
+                currentPlayingUrl = url;
+                saveLastChannel(url);
+                highlightActiveChannel(url);
+                retryCount = 0;
+                const sourceType = determineSourceType(url);
+                currentPlayer.reset();
+                currentPlayer.src({ src: url, type: sourceType });
+                currentPlayer.play().catch(error => {
+                    console.error('Play attempt failed (Initial):', error);
+                    retryPlay();
+                });
+            };
+
+            const init = () => {
+                initializePlayer();
+                loadChannelsFromStorage();
+            };
+
+            return { init: init, reloadFromM3U: reloadFromM3U };
+        })();
+
+        document.addEventListener('DOMContentLoaded', PlayerApp.init);
+
+        function shareCurrentLink() {
+            if (!currentPlayingUrl) {
+                alert('⚠️ الرجاء اختيار قناة أولاً');
+                return;
+            }
+            if (navigator.share) {
+                navigator.share({
+                    title: 'المياحي TV',
+                    url: currentPlayingUrl
+                }).catch(err => console.log('فشل المشاركة (قد يكون المستخدم ألغاها):', err));
+            } else {
+                navigator.clipboard.writeText(currentPlayingUrl);
+                alert('✅ تم نسخ رابط القناة إلى الحافظة.');
+            }
+        }
+    </script>
+</body>
+</html>
