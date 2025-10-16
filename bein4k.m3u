@@ -1,4 +1,4 @@
-#EXTM3U
+t#EXTM3U
 
 ## 🏅 قنوات ULTRA UHD (أعلى دقة)
 #EXTINF:-1,beIN SPORTS 1 ULTRA (بديل)
@@ -95,7 +95,7 @@ http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=245832&ex
 #EXTINF:-1,beIN Sports 4 Nexus SD نت ضعيف
 http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=1269962&extension=m3u8
 
-## 🏟️ قنوات EVENTS
+## 🏟️ قنوات TOD EVENTS
 #EXTINF:-1,TOD beIN EVENTS 1
 http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356790&extension=m3u8
 #EXTINF:-1,TOD beIN EVENTS 2
