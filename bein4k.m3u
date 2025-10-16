@@ -1,3 +1,4 @@
+بالتأكيد، تفضل بنسخ قائمة التشغيل.
 #EXTM3U
 
 ## 🏅 قنوات ULTRA UHD (أعلى دقة)
@@ -11,36 +12,7 @@ http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315718&extension=
 http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315712&extension=m3u8
 
 ## 💎 قنوات 4K/UHD
-#EXTINF:-1,beIN Sports News UHD
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=44&extension=m3u8
-#EXTINF:-1,beIN SPORTS NEWS UHD (بديل)
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=22198&extension=m3u8
-#EXTINF:-1,beIN Sports Global UHD
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=43&extension=m3u8
-#EXTINF:-1,beIN SPORTS GLOBAL UHD (بديل)
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=22199&extension=m3u8
-#EXTINF:-1,beIN Sports 1 4K
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=114053&extension=m3u8
-#EXTINF:-1,beIN Sports 1 UHD
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=3854&extension=m3u8
-#EXTINF:-1,beIN Sports 1 Nexus 4K
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=1269943&extension=m3u8
-#EXTINF:-1,beIN Sports 2 4K
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=114052&extension=m3u8
-#EXTINF:-1, bein sports 2 4k (بديل)
-http://royalibox.com/play/live.php?mac=00:1A:79:B8:4F:91&stream=114052&extension=m3u8
-#EXTINF:-1, bein sports 2 4k 2 (بديل 2)
-http://royalibox.com/play/live.php?mac=00:1A:79:B8:4F:91&stream=114052&extension=m3u8
-#EXTINF:-1,beIN Sports 2 UHD
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=3853&extension=m3u8
-#EXTINF:-1,beIN Sports 2 Nexus 4K
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=1269944&extension=m3u8
-#EXTINF:-1,beIN Sports 3 4K
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=114050&extension=m3u8
-#EXTINF:-1,beIN Sports 3 UHD
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=3851&extension=m3u8
-#EXTINF:-1,bein 4k (قناة عامة 4K)
-http://cf.neo-cdn010.me:80/play/live.php?mac=00:1A:79:B4:F1:08&stream=365961&extension=m3u8
+
 
 ## ✨ قنوات HD (عالية الدقة)
 #EXTINF:-1,beIN Sports News HD
