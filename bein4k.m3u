@@ -151,7 +151,28 @@ http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356793&extension
 #EXTINF:-1,TOD beIN EVENTS 5
 http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356794&extension=m3u8
 ## الرابعة
-#EXTINF:-1, الرابعة الرياضية 1
-http://s2.news-api-gen.lol/al_rab3a1/tracks-v1a1/mono.m3u8?remote=169.224.5.6&token=5da0fa9e04a443e1528b27c91c3d217b27e05848-ff263a339b1f8533cd81133b351fb5f7-1760627147-1760616347
-#EXTINF:-1, الرابعة الرياضية 2
-http://s2.news-api-gen.lol/al_rab3a_2/tracks-v1a1/mono.m3u8?remote=169.224.5.6&remote=169.224.5.6/al_rab3a_2/index.m3u8?token=b2dcd4993ab6f0b80905932f1a7329e5e3966f3e-bb81917c2c2c42408adf9ce0791f35fe-1760627466-1760616666&token=4fc9cc448b6af6ed775dbb2088b65e69a126c6a7-e935213ec3c1054be4930e451d8ab647-1760627466-1760616666
+
+#EXTINF:-1 Rabiaa TV ʰᵉᵛᶜ 
+http://shafak.xyz:8880/live/15653663194287/11337842658653/529813.m3u8
+#EXTINF:-1 ,Iraq Al Rabiaa TV
+http://shafak.xyz:8880/live/15653663194287/11337842658653/529453.m3u8
+#EXTINF:-1 ,Iraq Al Rabiaa Sport 1
+http://shafak.xyz:8880/live/15653663194287/11337842658653/529452.m3u8
+#EXTINF:-1 ,Al Rabiaa Series
+http://shafak.xyz:8880/live/15653663194287/11337842658653/529454.m3u8
+#EXTINF:-1 ,Al Rabiaa Geo
+http://shafak.xyz:8880/live/15653663194287/11337842658653/529455.m3u8
+#EXTINF:-1 ,Al Rabiaa Quran
+http://shafak.xyz:8880/live/15653663194287/11337842658653/529456.m3u8
+#EXTINF:-1 ,Al Rabiaa Sport 1
+http://shafak.xyz:8880/live/15653663194287/11337842658653/529457.m3u8
+#EXTINF:-1 ,Al Rabiaa Sport 2
+http://shafak.xyz:8880/live/15653663194287/11337842658653/529458.m3u8
+#EXTINF:-1 ,Al Rabiaa Sport 3
+http://shafak.xyz:8880/live/15653663194287/11337842658653/529459.m3u8
+#EXTINF:-1 ,Al Rabiaa TV
+http://shafak.xyz:8880/live/15653663194287/11337842658653/529460.m3u8
+#EXTINF:-1 ,Al Rabiaa Musica
+http://shafak.xyz:8880/live/15653663194287/11337842658653/529461.m3u8
+#EXTINF:-1 ,Al Rabiaa Movies
+http://shafak.xyz:8880/live/15653663194287/11337842658653/529462.m3u8
