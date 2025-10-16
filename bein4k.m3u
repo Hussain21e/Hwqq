@@ -1,50 +1,24 @@
 #EXTM3U
 
 ## 🏅 قنوات ULTRA UHD (أعلى دقة)
-#EXTINF:-1,beIN SPORTS GLOBAL ULTRA ᵁᴴᴰ
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=315724&extension=m3u8
-#EXTINF:-1,beIN SPORTS NEWS ULTRA ᵁᴴᴰ
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=315723&extension=m3u8
-#EXTINF:-1,beIN SPORTS ULTRA ᵁᴴᴰ 1
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=623331&extension=m3u8
 #EXTINF:-1,beIN SPORTS 1 ULTRA (بديل)
 http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315710&extension=m3u8
-#EXTINF:-1,beIN SPORTS ULTRA ᵁᴴᴰ 2
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=623332&extension=m3u8
 #EXTINF:-1,beIN SPORTS 2 ULTRA (بديل)
 http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315711&extension=m3u8
-#EXTINF:-1,beIN SPORTS ULTRA ᵁᴴᴰ 3
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=623333&extension=m3u8
 #EXTINF:-1,beIN SPORTS 3 ULTRA (بديل)
 http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315718&extension=m3u8
-#EXTINF:-1,beIN SPORTS ULTRA ᵁᴴᴰ 4
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=623334&extension=m3u8
 #EXTINF:-1,beIN SPORTS 4 ULTRA (بديل)
 http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315712&extension=m3u8
-#EXTINF:-1,beIN SPORTS ULTRA ᵁᴴᴰ 5
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=623335&extension=m3u8
-#EXTINF:-1,beIN SPORTS ULTRA ᵁᴴᴰ 6
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=623336&extension=m3u8
-#EXTINF:-1,beIN SPORTS ULTRA ᵁᴴᴰ 7
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=623337&extension=m3u8
-#EXTINF:-1,beIN SPORTS ULTRA ᵁᴴᴰ 8
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=623338&extension=m3u8
-#EXTINF:-1,beIN SPORTS ULTRA ᵁᴴᴰ 9
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=623339&extension=m3u8
 
 ## 💎 قنوات 4K/UHD
 #EXTINF:-1,beIN Sports News UHD
 http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=44&extension=m3u8
 #EXTINF:-1,beIN SPORTS NEWS UHD (بديل)
 http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=22198&extension=m3u8
-#EXTINF:-1,beIN SPORTS NEWS ᵁᴴᴰ (بديل 2)
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315744&extension=m3u8
 #EXTINF:-1,beIN Sports Global UHD
 http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=43&extension=m3u8
 #EXTINF:-1,beIN SPORTS GLOBAL UHD (بديل)
 http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=22199&extension=m3u8
-#EXTINF:-1,beIN SPORTS GLOBAL ᵁᴴᴰ (بديل 2)
-http://h33.1winounwahsa.space/2203124/58.m3u8
 #EXTINF:-1,beIN Sports 1 4K
 http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=114053&extension=m3u8
 #EXTINF:-1,beIN Sports 1 UHD
@@ -67,8 +41,6 @@ http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=114050&extens
 http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=3851&extension=m3u8
 #EXTINF:-1,bein 4k (قناة عامة 4K)
 http://cf.neo-cdn010.me:80/play/live.php?mac=00:1A:79:B4:F1:08&stream=365961&extension=m3u8
-#EXTINF:-1,TOD 360 ᵁᴴᴰ
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=341756&extension=m3u8
 
 ## ✨ قنوات HD (عالية الدقة)
 #EXTINF:-1,beIN Sports News HD
