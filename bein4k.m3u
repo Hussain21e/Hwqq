@@ -12,10 +12,18 @@ http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315712&extension=
 ## 💎 قنوات 4K/UHD
 #EXTINF:-1,BEIN 4k
 http://cf.neo-cdn010.me:80/play/live.php?mac=00:1A:79:00:10:32&stream=285715&extension=m3u8
+#EXTINF:-1,BEIN 4k 2
+http://cf.neo-cdn010.me:80/play/live.php?mac=00:1A:79:00:10:32&stream=365961&extension=m3u8
 #EXTINF:-1,BEIN SPORT 01 FHD
 http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917224&extension=m3u8
+#EXTINF:-1,BEIN SPORT 01 FHD 2
+http://cf.neo-cdn010.me:80/play/live.php?mac=00:1A:79:00:10:32&stream=263884&extension=m3u8
+#EXTINF:-1,BEIN SPORT 01 FHD 3
+http://cf.neo-cdn010.me:80/play/live.php?mac=00:1A:79:00:10:32&stream=264230&extension=m3u8
 #EXTINF:-1,BEIN SPORT 02 FHD
 http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917223&extension=m3u8
+#EXTINF:-1,BEIN SPORT 02 FHD 2
+http://cf.neo-cdn010.me:80/play/live.php?mac=00:1A:79:00:10:32&stream=263883&extension=m3u8
 #EXTINF:-1,BEIN SPORT 03 FHD
 http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917222&extension=m3u8
 #EXTINF:-1,BEIN SPORT 04 FHD
@@ -29,6 +37,8 @@ http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917220&extensi
 http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=28939&extension=m3u8
 #EXTINF:-1,beIN Sports Global HD
 http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=28938&extension=m3u8
+#EXTINF:-1,beIN Sports 1 HD uhd
+http://cf.neo-cdn010.me:80/play/live.php?mac=00:1A:79:00:10:32&stream=264032&extension=m3u8
 #EXTINF:-1,beIN Sports 1 HD
 http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=1&extension=m3u8
 #EXTINF:-1,beIN Sports 1 ᴴᴰ
