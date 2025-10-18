@@ -10,6 +10,54 @@ http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315718&extension=
 #EXTINF:-1,beIN SPORTS 4 ULTRA (بديل)
 http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315712&extension=m3u
 ## 💎 قنوات 4K/UHD
+#EXTM3U
+#EXTINF:-1 AR| BEIN SPORT
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917226&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 01 FHD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917224&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 02 FHD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917223&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 03 FHD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917222&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 04 FHD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917221&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 05 FHD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917220&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 06 FHD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917219&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 07 FHD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917218&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 08 FHD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917217&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 09 FHD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917216&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 01 HD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917215&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 02 HD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917214&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 03 HD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917213&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 04 HD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917212&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 05 HD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917211&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 06 HD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917210&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 07 HD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917209&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 08 HD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917208&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 09 HD
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917207&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 1 4K
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917206&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 2 4K
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917205&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 3 4K
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917204&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 4 4K
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917203&extension=m3u8
+#EXTINF:-1 AR| BEIN SPORT 5 4K
 
 ## ✨ قنوات HD (عالية الدقة)
 #EXTINF:-1,beIN Sports News HD
