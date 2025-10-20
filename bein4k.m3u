@@ -151,40 +151,44 @@ http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=706548&extensio
 #EXTINF:-1,SS: beIN SP⚽RTS 5 HD
 http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=706547&extension=m3u8
 
-## 🏟️ قنوات TOD EVENTS
-#EXTINF:-1,TOD beIN EVENTS 1
-http://cf.neo-cdn010.me:80/play/live.php?mac=00:1A:79:00:10:32&stream=285797&extension=m3u8
-#EXTINF:-1,TOD beIN EVENTS 2
-http://cf.neo-cdn010.me:80/play/live.php?mac=00:1A:79:00:10:32&stream=285796&extension=m3u8
-#EXTINF:-1,TOD beIN EVENTS 3
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356792&extension=m3u8
-#EXTINF:-1,TOD beIN EVENTS 4
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356793&extension=m3u8
-#EXTINF:-1,TOD beIN EVENTS 5
-http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=1356794&extension=m3u8
+## 🏟️ احتياطي2
+#EXTINF:-1,AR| BEIN SPORTS 1 HEVC
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1330433&extension=m3u8
+#EXTINF:-1,AR| BEIN SPORTS 2 HEVC
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1330432&extension=m3u8
+#EXTINF:-1,AR| BEIN SPORTS 3 HEVC
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1330431&extension=m3u8
+#EXTINF:-1,AR| BEIN SPORTS 1 FHD
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294764&extension=m3u8
+#EXTINF:-1,AR| BEIN SPORTS 2 FHD
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294763&extension=m3u8
+#EXTINF:-1,AR| BEIN SPORTS 3 FHD
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294762&extension=m3u8
+#EXTINF:-1,AR| BEIN SPORTS 4 FHD
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294761&extension=m3u8
+#EXTINF:-1,AR| BEIN SPORTS 5 FHD
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294760&extension=m3u8
+#EXTINF:-1,BEIN SPORTS1 ᵁᴴᴰ8K
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1411396&extension=m3u8
+#EXTINF:-1,BEIN SPORTS2 ᵁᴴᴰ 8K
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1411395&extension=m3u8
+#EXTINF:-1,BEIN SPORTS3 ᵁᴴᴰ 8K
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1411394&extension=m3u8
+#EXTINF:-1,BEIN SPORTS1 ᵁᴴᴰ 4K
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1411383&extension=m3u8
+#EXTINF:-1,BEIN SPORTS2 ᵁᴴᴰ 4K
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1411382&extension=m3u8
+#EXTINF:-1,BEIN SPORTS3 ᵁᴴᴰ 4K
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1411381&extension=m3u8
+#EXTINF:-1 ,BEIN SPORTS 1 4k
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1660415&extension=m3u8
+#EXTINF:-1,BEIN SPORTS 2 4k
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1660426&extension=m3u8
+#EXTINF:-1,BEIN SPORTS 3 4k
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1660425&extension=m3u8
 ## الرابعة
 
-#EXTINF:-1,Rabiaa TV ʰᵉᵛᶜ 
-http://shafak.xyz:8880/live/15653663194287/11337842658653/529813.m3u8
-#EXTINF:-1 ,Iraq Al Rabiaa TV
-http://shafak.xyz:8880/live/15653663194287/11337842658653/529453.m3u8
-#EXTINF:-1 ,Iraq Al Rabiaa Sport 1
-http://shafak.xyz:8880/live/15653663194287/11337842658653/529452.m3u8
-#EXTINF:-1 ,Al Rabiaa Series
-http://shafak.xyz:8880/live/15653663194287/11337842658653/529454.m3u8
-#EXTINF:-1 ,Al Rabiaa Geo
-http://shafak.xyz:8880/live/15653663194287/11337842658653/529455.m3u8
-#EXTINF:-1 ,Al Rabiaa Quran
-http://shafak.xyz:8880/live/15653663194287/11337842658653/529456.m3u8
-#EXTINF:-1 ,Al Rabiaa Sport 1
-http://shafak.xyz:8880/live/15653663194287/11337842658653/529457.m3u8
-#EXTINF:-1 ,Al Rabiaa Sport 2
-http://shafak.xyz:8880/live/15653663194287/11337842658653/529458.m3u8
-#EXTINF:-1 ,Al Rabiaa Sport 3
-http://shafak.xyz:8880/live/15653663194287/11337842658653/529459.m3u8
-#EXTINF:-1 ,Al Rabiaa TV
-http://shafak.xyz:8880/live/15653663194287/11337842658653/529460.m3u8
-#EXTINF:-1 ,Al Rabiaa Musica
-http://shafak.xyz:8880/live/15653663194287/11337842658653/529461.m3u8
-#EXTINF:-1 ,Al Rabiaa Movies
-http://shafak.xyz:8880/live/15653663194287/11337842658653/529462.m3u8
+#EXTINF:-1,AL RABIAA SPORT 1
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1649564&extension=m3u8
+#EXTINF:-1,AL RABIAA SPORT 2
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1649563&extension=m3u8
