@@ -19,7 +19,7 @@ http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917224&extensi
 #EXTINF:-1,BEIN SPORT 01 FHD 2
 http://cf.neo-cdn010.me:80/play/live.php?mac=00:1A:79:00:10:32&stream=263884&extension=m3u8
 #EXTINF:-1,BEIN SPORT 01 FHD 3
-http://130.193.165.122/cMaM99R__hi__nM09zJYO1gcB__hi__D5dbT0d2vKsqwmIQnWtTvV__hi__JDizlmHzVhs0BbBLyMvp2JivuQw4LVOYftCZQ__ih__fyDm__ih__R76Dp8g__ih____hi__8uK1KNTRW47b3SRvJhnaSlPsK9i25vWzgk8KdWBj3kiJbbM4EvoxCw5OAvZtMmHiZdc8__ih__B88NOVvumWemQYyTF__hi__Os86Yy1ooPWV1PSaFZ5TiQnZY6ie1QU6__ih__tyjhTIhZCsFJGffszGEZFdnK42aGU5AZoX1HhmaNTUbMCmSoeY0yNgCFiVDHqNZKwBd6r8ihsEPfPakJv6Dg=---/cache/Bein-Sp1-LB/m3u8/hls_m3u8_Bein-Sport-1.m3u8
+
 #EXTINF:-1,BEIN SPORT 02 FHD
 http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917223&extension=m3u8
 #EXTINF:-1,BEIN SPORT 02 FHD 2
@@ -115,6 +115,18 @@ http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=10795&ext
 http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=245832&extension=m3u8
 #EXTINF:-1,beIN Sports 4 Nexus SD نت ضعيف
 http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=1269962&extension=m3u8
+#EXTINF:-1,SA: beIN SP⚽RTS 1 SD
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1120421&extension=m3u8
+#EXTINF:-1,SA: beIN SP⚽RTS 2 SD
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1120420&extension=m3u8
+#EXTINF:-1,SA: beIN SP⚽RTS 3 SD
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1120419&extension=m3u8
+#EXTINF:-1,8K: beIN SP⚽RTS 1 LQ
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=544506&extension=m3u8
+#EXTINF:-1,8K: beIN SP⚽RTS 2 LQ
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=544505&extension=m3u8
+#EXTINF:-1,8K: beIN SP⚽RTS 3 LQ
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=544504&extension=m3u8
 ## احتياطي
 #EXTINF:-1,F: beIN SP⚽RTS 1 ᴴᴰ
 http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1302169&extension=m3u8
