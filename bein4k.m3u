@@ -11,9 +11,9 @@ http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315718&extension=
 http://maho2025.xyz/play/live.php?mac=00:1A:79:56:BF:29&stream=315712&extension=m3u
 ## 💎 قنوات 4K/UHD
 #EXTINF:-1,BEIN 4k
-http://cf.neo-cdn010.me:80/play/live.php?mac=00:1A:79:00:10:32&stream=285715&extension=m3u8
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1543851&extension=m3u8
 #EXTINF:-1,BEIN 4k 2
-http://cf.neo-cdn010.me:80/play/live.php?mac=00:1A:79:00:10:32&stream=365961&extension=m3u8
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=983525&extension=m3u8
 #EXTINF:-1,BEIN SPORT 01 FHD
 http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917224&extension=m3u8
 #EXTINF:-1,BEIN SPORT 01 FHD 2
@@ -115,6 +115,37 @@ http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=10795&ext
 http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=245832&extension=m3u8
 #EXTINF:-1,beIN Sports 4 Nexus SD نت ضعيف
 http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=1269962&extension=m3u8
+## احتياطي
+#EXTINF:-1,F: beIN SP⚽RTS 1 ᴴᴰ
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1302169&extension=m3u8
+#EXTINF:-1,F: beIN SP⚽RTS 2 ᴴᴰ
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1302168&extension=m3u8
+#EXTINF:-1,F: beIN SP⚽RTS 3 ᴴᴰ
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1302167&extension=m3u8
+#EXTINF:-1,F: beIN SP⚽RTS 4 ᴴᴰ
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1302166&extension=m3u8
+#EXTINF:-1,F: beIN SP⚽RTS 5 ᴴᴰ
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1302165&extension=m3u8
+#EXTINF:-1,BE: beIN SP⚽RTS 1 ᴴᴰ
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1353008&extension=m3u8
+#EXTINF:-1,BE: beIN SP⚽RTS 2 ᴴᴰ
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1353007&extension=m3u8
+#EXTINF:-1,BE: beIN SP⚽RTS 3 ᴴᴰ
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1353006&extension=m3u8
+#EXTINF:-1,BE: beIN SP⚽RTS 4 ᴴᴰ
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1353005&extension=m3u8
+#EXTINF:-1,BE: beIN SP⚽RTS 5 ᴴᴰ
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1353004&extension=m3u8
+#EXTINF:-1,SS: beIN SP⚽RTS 1 HD
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=706551&extension=m3u8
+#EXTINF:-1,SS: beIN SP⚽RTS 2 HD
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=706550&extension=m3u8
+#EXTINF:-1,SS: beIN SP⚽RTS 3 HD
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=706549&extension=m3u8
+#EXTINF:-1,SS: beIN SP⚽RTS 4 HD
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=706548&extension=m3u8
+#EXTINF:-1,SS: beIN SP⚽RTS 5 HD
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=706547&extension=m3u8
 
 ## 🏟️ قنوات TOD EVENTS
 #EXTINF:-1,TOD beIN EVENTS 1
