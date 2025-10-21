@@ -1,5 +1,15 @@
 #EXTM3U
 ## 💎 قنوات FHD
+#EXTINF:-1,AR| BEIN SPORTS 1 FHD
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294764&extension=m3u8
+#EXTINF:-1,AR| BEIN SPORTS 2 FHD
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294763&extension=m3u8
+#EXTINF:-1,AR| BEIN SPORTS 3 FHD
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294762&extension=m3u8
+#EXTINF:-1,AR| BEIN SPORTS 4 FHD
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294761&extension=m3u8
+#EXTINF:-1,AR| BEIN SPORTS 5 FHD
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294760&extension=m3u8
 #EXTINF:-1,bein sports 1
 http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=2541&extension=m3u8
 #EXTINF:-1,BEIN SPORT 01 FHD
