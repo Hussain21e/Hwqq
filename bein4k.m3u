@@ -2,10 +2,6 @@
 ## 💎 قنوات 4K/UHD
 #EXTINF:-1,bein sports 1
 http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=2541&extension=m3u8
-#EXTINF:-1,BEIN 4k
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1543851&extension=m3u8
-#EXTINF:-1,BEIN 4k 2
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=706540&extension=m3u8
 #EXTINF:-1,BEIN SPORT 01 FHD
 http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917224&extension=m3u8
 #EXTINF:-1,BEIN SPORT 01 FHD 2
@@ -21,6 +17,21 @@ http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917221&extensi
 #EXTINF:-1,BEIN SPORT 05 FHD
 http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917220&extension=m3u8
 
+##bein 4k شغال فقط وقت مباريات
+#EXTINF:-1،beIN SP⚽RTS 4K
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:79:F9:AE&stream=713566&extension=m3u8
+#EXTINF:-1,8K: beIN 4K 3840P (EVENT ONLY)
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:79:F9:AE&stream=544456&extension=m3u8
+#EXTINF:-1,TK: beIN 4K 3840P (EVENT ONLY)
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:79:F9:AE&stream=996478&extension=m3u8
+#EXTINF:-1,BE: beIN 4K 3840P (EVENT ONLY)
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:79:F9:AE&stream=1543851&extension=m3u8
+#EXTINF:-1,NM: beIN 4K 3840P (EVENT ONLY)
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:79:F9:AE&stream=983525&extension=m3u8
+#EXTINF:-1,SS: beIN 4K 3840P (EVENT ONLY)
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:79:F9:AE&stream=706541&extension=m3u8
+#EXTINF:-1,SS: beIN 4K 1080P (EVENT ONLY)
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:79:F9:AE&stream=706540&extension=m3u8
 
 ## ✨ قنوات HD (عالية الدقة)
 #EXTINF:-1,beIN Sports News HD
