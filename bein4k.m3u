@@ -19,7 +19,7 @@ http://stream.mytvplus.net:7004/sport/ch3/ch3_360.m3u8
 #EXTINF:-1,BEIN SPORTS 4 SD
 http://stream.mytvplus.net:7005/sport/ch4/ch4_360.m3u8
 #EXTINF:-1,BEIN SPORTS 5 SD
-http://stream.mytvplus.net:7006/sport/ch5/ch5_360.m3u8
+http://stream.mytvplus.net:7006/sport/ch5/ch5_360.ts
 ## 💎 قنوات FHD
 #EXTINF:-1,AR| BEIN SPORTS 1 FHD
 http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294764&extension=m3u8
