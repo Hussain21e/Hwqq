@@ -122,13 +122,13 @@ http://stream.mytvplus.net:7011/sport/ch10/ch10_720.m3u8
 #EXTINF:-1,BEIN SPORTS 1
 http://vipnorseman.top:8080/VIP01962171967036686/a304d6d9fe9a/841
 #EXTINF:-1,BEIN SPORTS 2
-http://vipnorseman.top:8080/VIP01962171967036686/a304d6d9fe9a/842
+http://135.125.109.73:9000/beinsport2_.m3u8
 #EXTINF:-1,BEIN SPORTS 3
-http://vipnorseman.top:8080/VIP01962171967036686/a304d6d9fe9a/843
+http://135.125.109.73:9000/beinsport3_.m3u8
 #EXTINF:-1,BEIN SPORTS 4
-http://vipnorseman.top:8080/VIP01962171967036686/a304d6d9fe9a/844
+http://135.125.109.73:9000/beinsport4_.m3u8
 #EXTINF:-1,BEIN SPORTS 5
-http://vipnorseman.top:8080/VIP01962171967036686/a304d6d9fe9a/845
+http://135.125.109.73:9000/beinsport5_.m3u8
 #EXTINF:-1,AD SPORT 1
 http://stream.mytvplus.net:7012/sport/ch11/ch11_720.m3u8
 #EXTINF:-1,AD SPORT 2
