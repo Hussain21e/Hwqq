@@ -12,6 +12,73 @@ http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294761&exten
 http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294760&extension=m3u8
 #EXTINF:-1 tvg-id=" tvg-name="الرابعة رياضية" group-title="بين سبورت - 4K / UHD / 8K",الرابعة رياضية
 http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1649564&extension=m3u8
+#EXTM3U
+#EXTINF:-1 group-title="beIN  Fhd",Bein News
+http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215401.m3u8
+#EXTINF:-1 group-title="beIN  Fhd",beIN Global
+http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215622.m3u8
+#EXTINF:-1 group-title="beIN  Fhd",Bein Sport G-4K
+http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/226415.m3u8
+#EXTINF:-1 group-title="beIN  Fhd",beIN SPORT 01 FHD
+http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215757.m3u8
+#EXTINF:-1 group-title="beIN  Fhd",beIN SPORT 02 FHD
+http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215760.m3u8
+#EXTINF:-1 group-title="beIN  Fhd",beIN SPORT 03 FHD
+http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215763.m3u8
+#EXTINF:-1 group-title="beIN  Fhd",beIN SPORT 04 FHD
+http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215766.m3u8
+#EXTINF:-1 group-title="beIN  Fhd",beIN SPORT 05 FHD
+http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215769.m3u8
+#EXTINF:-1 group-title="beIN  Fhd",beIN SPORT 06 FHD
+http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215772.m3u8
+#EXTINF:-1 group-title="beIN  Fhd",beIN SPORT 07 FHD
+http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215775.m3u8
+#EXTINF:-1 group-title="beIN  Fhd",beIN SPORT 08 FHD
+http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215778.m3u8
+#EXTINF:-1 group-title="beIN  Fhd",beIN SPORT 09 FHD
+http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215781.m3u8
+#EXTINF:-1 group-title="beIN  Fhd",beIN SPORT XTRA 01 FHD
+http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215784.m3u8
+#EXTINF:-1 group-title="beIN  Fhd",beIN SPORT XTRA 02 FHD
+http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215787.m3u8
+#EXTINF:-1 group-title="beIN  Fhd",beIN SPORT XTRA 03 FHD
+http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215790.m3u8
+#EXTM3U url-tvg="https://iptv-org.github.io/iptv/index.m3u"
+#EXTINF:-1 group-title="|AR| ✪ BEIN SPORT 4K",beIN Sports News UHD
+http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=44&extension=m3u8
+#EXTINF:-1 group-title="|AR| ✪ BEIN SPORT 4K",beIN SPORTS NEWS UHD
+http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=22198&extension=m3u8
+#EXTINF:-1 group-title="|AR| ✪ BEIN SPORT 4K",beIN Sports Global UHD
+http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=43&extension=m3u8
+#EXTINF:-1 group-title="|AR| ✪ BEIN SPORT 4K",beIN SPORTS GLOBAL 4K
+http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=22199&extension=m3u8
+#EXTINF:-1 group-title="|AR| ✪ BEIN SPORT 4K",beIN UHD 2160P
+http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=190369&extension=m3u8
+#EXTINF:-1 group-title="|AR| ✪ BEIN SPORT 4K",beIN Sports 1 4K
+http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=114053&extension=m3u8
+#EXTINF:-1 group-title="|AR| ✪ BEIN SPORT 4K",beIN Sports 1 UHD
+http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=3854&extension=m3u8
+#EXTINF:-1 group-title="|AR| ✪ BEIN SPORT 4K",beIN Sports 2 4K
+http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=114052&extension=m3u8
+#EXTINF:-1 group-title="|AR| ✪ BEIN SPORT 4K",beIN Sports 2 UHD
+http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=3853&extension=m3u8
+#EXTINF:-1 group-title="|AR| ✪ BEIN SPORT 4K",beIN Sports 3 4K
+http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=114050&extension=m3u8
+#EXTINF:-1 group-title="|AR| ✪ BEIN SPORT 4K",beIN Sports 3 UHD
+http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=3851&extension=m3u8
+#EXTINF:-1 group-title="|AR| ✪ BEIN SPORT 4K",beIN Sports 4 4K
+http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=114049&extension=m3u8
+#EXTINF:-1 group-title="|AR| ✪ BEIN SPORT 4K",beIN Sports 4 UHD
+http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=3850&extension=m3u8
+#EXTINF:-1 group-title="|AR| ✪ BEIN SPORT 4K",beIN Sports 5 4K
+http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=114048&extension=m3u8
+#EXTM3U
+#EXTINF:-1 tvg-id=" tvg-name="الرابعة رياضية" group-title="بين سبورت - 4K / UHD / 8K",الرابعة رياضية
+http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1649564&extension=m3u8
+#EXTINF:-1, 1الثامنة
+http://stream.shabakaty.com:6010/sport/ch9/ch9_720.m3u8
+#EXTINF:-1, 2الثامنة
+http://stream.shabakaty.com:6011/sport/ch10/ch10_720_3732696.m3u8
 #EXTINF:-1,BEIN SPORT  1 FHD
 http://stream.mytvplus.net:7002/sport/ch1/ch1_1080.m3u8
 #EXTINF:-1,BEIN SPORT  2 FHD
@@ -30,16 +97,32 @@ http://stream.mytvplus.net:7008/sport/ch7/ch7_1080.m3u8
 http://stream.mytvplus.net:7009/sport/ch8/ch8_1080.m3u8
 #EXTINF:-1,BEIN SPORT  9 FHD
 http://stream.mytvplus.net:7010/sport/ch9/ch9_1080.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="AR: AL KASS 1" tvg-logo="https://docdog.top/logo/countries/arab/alkass1.png" group-title="ARAB VIP",AR: AL KASS 1
+http://vipnorseman.top:8080/VIP01962171967036686/a304d6d9fe9a/6600
+#EXTINF:-1 tvg-id="" tvg-name="AR: AL KASS 2" tvg-logo="https://docdog.top/logo/countries/arab/alkass2.png" group-title="ARAB VIP",AR: AL KASS 2
+http://vipnorseman.top:8080/VIP01962171967036686/a304d6d9fe9a/6601
+#EXTINF:-1 tvg-id="" tvg-name="AR: AL KASS 3" tvg-logo="https://docdog.top/logo/countries/arab/alkass3.png" group-title="ARAB VIP",AR: AL KASS 3
+http://vipnorseman.top:8080/VIP01962171967036686/a304d6d9fe9a/6602
+#EXTINF:-1 tvg-id="" tvg-name="AR: AL KASS 4" tvg-logo="https://docdog.top/logo/countries/arab/alkass4.png" group-title="ARAB VIP",AR: AL KASS 4
+http://vipnorseman.top:8080/VIP01962171967036686/a304d6d9fe9a/6603
+#EXTINF:-1 tvg-id="" tvg-name="AR: AL KASS 5" tvg-logo="https://docdog.top/logo/countries/arab/alkass5.png" group-title="ARAB VIP",AR: AL KASS 5
+http://vipnorseman.top:8080/VIP01962171967036686/a304d6d9fe9a/6604
 #EXTINF:-1,دوري ايطالي
 http://stream.mytvplus.net:7011/sport/ch10/ch10_1080.m3u8
+#EXTINF:-1,AD SPORT 1  FHD
+http://stream.mytvplus.net:7012/sport/ch11/ch11_1080.m3u8
+#EXTINF:-1,AD SPORT 2  FHD
+http://stream.mytvplus.net:7013/sport/ch12/ch12_1080.m3u8
 #EXTINF:-1,BEIN SPORT   1 HD
-http://135.125.109.73:9000/beinsport1_.m3u8
+http://stream.mytvplus.net:7002/sport/ch1/ch1_720.m3u8
 #EXTINF:-1,BEIN SPORT   2 HD
-http://135.125.109.73:9000/beinsport2_.m3u8
+http://stream.mytvplus.net:7003/sport/ch2/ch2_720.m3u8
 #EXTINF:-1,BEIN SPORT   3 HD
-http://135.125.109.73:9000/beinsport3_.m3u8
+http://stream.mytvplus.net:7004/sport/ch3/ch3_720.m3u8
 #EXTINF:-1,BEIN SPORT  4 HD
-http://135.125.109.73:9000/beinsport4_.m3u8
+http://stream.mytvplus.net:7005/sport/ch4/ch4_720.m3u8
+#EXTINF:-1,BEIN SPORT  5 HD
+http://stream.mytvplus.net:7006/sport/ch5/ch5_720.m3u8
 #EXTINF:-1,BEIN SPORT  6 HD
 http://stream.mytvplus.net:7007/sport/ch6/ch6_720.m3u8
 #EXTINF:-1,BEIN SPORT  7 HD
@@ -50,6 +133,20 @@ http://stream.mytvplus.net:7009/sport/ch8/ch8_720.m3u8
 http://stream.mytvplus.net:7010/sport/ch9/ch9_720.m3u8
 #EXTINF:-1,BEIN SPORT  MAX HD
 http://stream.mytvplus.net:7011/sport/ch10/ch10_720.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="AR: BEIN SPORTS 1" tvg-logo="https://docdog.top/logo/countries/bein/beinsports1.png" group-title="ARAB | BEIN VIP",AR: BEIN SPORTS 1
+http://vipnorseman.top:8080/VIP01962171967036686/a304d6d9fe9a/841
+#EXTINF:-1 tvg-id="" tvg-name="AR: BEIN SPORTS 2" tvg-logo="https://docdog.top/logo/countries/bein/beinsports2.png" group-title="ARAB | BEIN VIP",AR: BEIN SPORTS 2
+http://vipnorseman.top:8080/VIP01962171967036686/a304d6d9fe9a/842
+#EXTINF:-1 tvg-id="" tvg-name="AR: BEIN SPORTS 3" tvg-logo="https://docdog.top/logo/countries/bein/beinsports3.png" group-title="ARAB | BEIN VIP",AR: BEIN SPORTS 3
+http://vipnorseman.top:8080/VIP01962171967036686/a304d6d9fe9a/843
+#EXTINF:-1 tvg-id="" tvg-name="AR: BEIN SPORTS 4" tvg-logo="https://docdog.top/logo/countries/bein/beinsports4.png" group-title="ARAB | BEIN VIP",AR: BEIN SPORTS 4
+http://vipnorseman.top:8080/VIP01962171967036686/a304d6d9fe9a/844
+#EXTINF:-1 tvg-id="" tvg-name="AR: BEIN SPORTS 5" tvg-logo="https://docdog.top/logo/countries/bein/beinsports5.png" group-title="ARAB | BEIN VIP",AR: BEIN SPORTS 5
+http://vipnorseman.top:8080/VIP01962171967036686/a304d6d9fe9a/845
+#EXTINF:-1,AD SPORT 1  HD
+http://stream.mytvplus.net:7012/sport/ch11/ch11_720.m3u8
+#EXTINF:-1,AD SPORT 2  HD
+http://stream.mytvplus.net:7013/sport/ch12/ch12_720.m3u8
 #EXTINF:-1,BEIN SPORT   1 SD
 http://stream.mytvplus.net:7002/sport/ch1/ch1_360.m3u8
 #EXTINF:-1,BEIN SPORT   2 SD
@@ -70,6 +167,8 @@ http://stream.mytvplus.net:7009/sport/ch8/ch8_360.m3u8
 http://stream.mytvplus.net:7010/sport/ch9/ch9_360.m3u8
 #EXTINF:-1,BEIN SPORT  MAX SD
 http://stream.mytvplus.net:7011/sport/ch10/ch10_360.m3u8
+#EXTINF:-1,AD SPORT 1  SD
+http://stream.mytvplus.net:7012/sport/ch11/ch11_360.m3u8
 #EXTINF:-1,BEIN SPORT   1 LOW
 http://stream.mytvplus.net:7002/sport/ch1/ch1_240.m3u8
 #EXTINF:-1,BEIN SPORT   2 LOW
@@ -90,8 +189,16 @@ http://stream.mytvplus.net:7009/sport/ch8/ch8_240.m3u8
 http://stream.mytvplus.net:7010/sport/ch9/ch9_240.m3u8
 #EXTINF:-1,BEIN SPORT  MAX LOW
 http://stream.mytvplus.net:7011/sport/ch10/ch10_240.m3u8
+#EXTINF:-1,AD SPORT 1  LOW
+http://stream.mytvplus.net:7012/sport/ch11/ch11_240.m3u8
 
 http://stream.mytvplus.net:7004/sport/ch3/ch3_1080.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/G27NMKXb/4k-DIGITAL-Mono.png" group-title="بين سبورت - 4K / UHD / 8K",8K: beIN 4K 3840P (EVENT ONLY)
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:79:F9:AE&stream=544456&extension=m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/G27NMKXb/4k-DIGITAL-Mono.png" group-title="بين سبورت - 4K / UHD / 8K",TK: beIN 4K 3840P (EVENT ONLY)
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:79:F9:AE&stream=996478&extension=m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/G27NMKXb/4k-DIGITAL-Mono.png" group-title="بين سبورت - 4K / UHD / 8K",BE: beIN 4K 3840P (EVENT ONLY)
+http://delta8k.xyz:80/play/live.php?mac=00:1A:79:79:F9:AE&stream=1543851&extension=m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/jd1CxQWM/ezgif-4-9b2f2bdb9d.png" group-title="بين سبورت - 4K / UHD / 8K",beIN Sports 1 HD uhd
 http://cf.neo-cdn010.me:80/play/live.php?mac=00:1A:79:00:10:32&stream=264032&extension=m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/jd1CxQWM/ezgif-4-9b2f2bdb9d.png" group-title="بين سبورت - FHD (جودة فائقة)",BEIN SPORTS 1 FHD
@@ -112,6 +219,8 @@ http://delta8k.xyz:80/play/live.php?mac=00:1A:79:79:F9:AE&stream=706540&extensio
 http://delta8k.xyz:80/play/live.php?mac=00:1A:79:79:F9:AE&stream=706543&extension=m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/tJj4Gz2Y/ezgif-4-d05f5f6b4f.png" group-title="بين سبورت - HD (جودة عالية)",SS: beIN SP⚽RTS 5 ᴴᴰ
 http://delta8k.xyz:80/play/live.php?mac=00:1A:79:79:F9:AE&stream=706544&extension=m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/tJj4Gz2Y/ezgif-4-d05f5f6b4f.png" group-title="بين سبورت - HD (جودة عالية)",beIN SPORTS 5
+http://tv-nova.com:80/play/live.php?mac=00:1A:79:B6:C3:50&stream=1917215&extension=m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/jd1CxQWM/ezgif-4-9b2f2bdb9d.png" group-title="بين سبورت - SD (جودة عادية)",BEIN SPORTS 1 SD
 http://stream.mytvplus.net:7002/sport/ch1/ch1_360.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/JhPf8K0n/ezgif-4-ea9735e79e.png" group-title="بين سبورت - SD (جودة عادية)",BEIN SPORTS 2 SD
@@ -122,147 +231,4 @@ http://stream.mytvplus.net:7004/sport/ch3/ch3_360.m3u8
 http://stream.mytvplus.net:7005/sport/ch4/ch4_360.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/tJj4Gz2Y/ezgif-4-d05f5f6b4f.png" group-title="بين سبورت - SD (جودة عادية)",BEIN SPORTS 5 SD
 http://stream.mytvplus.net:7006/sport/ch5/ch5_360.m3u8
-#EXTINF:-1,beIN Sports 2 ᴴᴰ
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=534830&extension=m3u8
-#EXTINF:-1,beIN Sports 2 HD BEE TV
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=108162&extension=m3u8
-#EXTINF:-1,beIN Sports 2 Nexus
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=1122213&extension=m3u8
-#EXTINF:-1,beIN Sports 2 APPEL
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=1121790&extension=m3u8
 
-## 🐌 نت ضعيف SD
-#EXTINF:-1,beIN SPORTS NEWS SD
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=274145&extension=m3u8
-#EXTINF:-1,beIN SPORTS NEWS SD نت ضعيف (بديل)
-http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=274145&extension=m3u8
-#EXTINF:-1,beIN SPORTS GLOBAL SD
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=274143&extension=m3u8
-#EXTINF:-1,beIN SPORTS GLOBAL SD نت ضعيف (بديل)
-http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=274143&extension=m3u8
-#EXTINF:-1,beIN Sports 1 SD
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=2541&extension=m3u8
-#EXTINF:-1,beIN Sports 1 SD نت ضعيف (بديل)
-http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=2541&extension=m3u8
-#EXTINF:-1,beIN SPORTS 1 SD BEE TV
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=245836&extension=m3u8
-#EXTINF:-1,beIN SPORTS 1 SD نت ضعيف BEE TV (بديل)
-http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=245836&extension=m3u8
-#EXTINF:-1,beIN Sports 1 Nexus SD
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=1269952&extension=m3u8
-#EXTINF:-1,beIN Sports 1 Nexus SD نت ضعيف (بديل)
-http://michalbak.online:80/play/live.php?mac=00:1A:79:00:28:D3&stream=1836254&extension=m3u8
-#EXTINF:-1,beIN Sports 2 SD
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=2540&extension=m3u8
-#EXTINF:-1,beIN Sports 2 SD نت ضعيف (بديل)
-http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=2540&extension=m3u8
-#EXTINF:-1,beIN SPORTS 2 SD BEE TV
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=245835&extension=m3u8
-#EXTINF:-1,beIN SPORTS 2 SD نت ضعيف BEE (بديل)
-http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=245835&extension=m3u8
-#EXTINF:-1,beIN Sports 2 Nexus SD
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=1269953&extension=m3u8
-#EXTINF:-1,beIN Sports 2 Nexus SD نت ضعيف (بديل)
-http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=1269953&extension=m3u8
-#EXTINF:-1,beIN Sports 3 SD
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=2538&extension=m3u8
-#EXTINF:-1,beIN Sports 3 SD نت ضعيف (بديل)
-http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=2538&extension=m3u8
-#EXTINF:-1,beIN SPORTS 3 SD BEE TV
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=245833&extension=m3u8
-#EXTINF:-1,beIN SPORTS 3 SD نت ضعيف BEE TV (بديل)
-http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=245833&extension=m3u8
-#EXTINF:-1,beIN Sports 3 Nexus SD
-http://ch-4k-top.org:80/play/live.php?mac=00:1A:79:57:05:cf&stream=1269954&extension=m3u8
-#EXTINF:-1,beIN Sports 3 Nexus SD نت ضعيف (بديل)
-http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=1269954&extension=m3u8
-#EXTINF:-1,beIN Sports 4 SD نت ضعيف
-http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=10795&extension=m3u8
-#EXTINF:-1,beIN SPORTS 4 SD نت ضعيف BEE TV
-http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=245832&extension=m3u8
-#EXTINF:-1,beIN Sports 4 Nexus SD نت ضعيف
-http://taoufi-eagle2.org:80/play/live.php?mac=00:1A:79:B2:72:5A&stream=1269962&extension=m3u8
-#EXTINF:-1,SA: beIN SP⚽RTS 1 SD
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1120421&extension=m3u8
-#EXTINF:-1,SA: beIN SP⚽RTS 2 SD
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1120420&extension=m3u8
-#EXTINF:-1,SA: beIN SP⚽RTS 3 SD
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1120419&extension=m3u8
-#EXTINF:-1,8K: beIN SP⚽RTS 1 LQ
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=544506&extension=m3u8
-#EXTINF:-1,8K: beIN SP⚽RTS 2 LQ
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=544505&extension=m3u8
-#EXTINF:-1,8K: beIN SP⚽RTS 3 LQ
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=544504&extension=m3u8
-## احتياطي
-#EXTINF:-1,F: beIN SP⚽RTS 1 ᴴᴰ
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1302169&extension=m3u8
-#EXTINF:-1,F: beIN SP⚽RTS 2 ᴴᴰ
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1302168&extension=m3u8
-#EXTINF:-1,F: beIN SP⚽RTS 3 ᴴᴰ
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1302167&extension=m3u8
-#EXTINF:-1,F: beIN SP⚽RTS 4 ᴴᴰ
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1302166&extension=m3u8
-#EXTINF:-1,F: beIN SP⚽RTS 5 ᴴᴰ
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1302165&extension=m3u8
-#EXTINF:-1,BE: beIN SP⚽RTS 1 ᴴᴰ
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1353008&extension=m3u8
-#EXTINF:-1,BE: beIN SP⚽RTS 2 ᴴᴰ
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1353007&extension=m3u8
-#EXTINF:-1,BE: beIN SP⚽RTS 3 ᴴᴰ
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1353006&extension=m3u8
-#EXTINF:-1,BE: beIN SP⚽RTS 4 ᴴᴰ
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1353005&extension=m3u8
-#EXTINF:-1,BE: beIN SP⚽RTS 5 ᴴᴰ
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=1353004&extension=m3u8
-#EXTINF:-1,SS: beIN SP⚽RTS 1 HD
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=706551&extension=m3u8
-#EXTINF:-1,SS: beIN SP⚽RTS 2 HD
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=706550&extension=m3u8
-#EXTINF:-1,SS: beIN SP⚽RTS 3 HD
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=706549&extension=m3u8
-#EXTINF:-1,SS: beIN SP⚽RTS 4 HD
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=706548&extension=m3u8
-#EXTINF:-1,SS: beIN SP⚽RTS 5 HD
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:63:AD:65&stream=706547&extension=m3u8
-
-## احتياطي 2
-#EXTINF:-1,AR| BEIN SPORTS 1 HEVC
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1330433&extension=m3u8
-#EXTINF:-1,AR| BEIN SPORTS 2 HEVC
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1330432&extension=m3u8
-#EXTINF:-1,AR| BEIN SPORTS 3 HEVC
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1330431&extension=m3u8
-#EXTINF:-1,AR| BEIN SPORTS 1 FHD
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294764&extension=m3u8
-#EXTINF:-1,AR| BEIN SPORTS 2 FHD
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294763&extension=m3u8
-#EXTINF:-1,AR| BEIN SPORTS 3 FHD
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294762&extension=m3u8
-#EXTINF:-1,AR| BEIN SPORTS 4 FHD
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294761&extension=m3u8
-#EXTINF:-1,AR| BEIN SPORTS 5 FHD
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294760&extension=m3u8
-#EXTINF:-1,BEIN SPORTS1 ᵁᴴᴰ8K
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1411396&extension=m3u8
-#EXTINF:-1,BEIN SPORTS2 ᵁᴴᴰ 8K
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1411395&extension=m3u8
-#EXTINF:-1,BEIN SPORTS3 ᵁᴴᴰ 8K
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1411394&extension=m3u8
-#EXTINF:-1,BEIN SPORTS1 ᵁᴴᴰ 4K
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1411383&extension=m3u8
-#EXTINF:-1,BEIN SPORTS2 ᵁᴴᴰ 4K
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1411382&extension=m3u8
-#EXTINF:-1,BEIN SPORTS3 ᵁᴴᴰ 4K
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1411381&extension=m3u8
-#EXTINF:-1 ,BEIN SPORTS 1 4k
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1660415&extension=m3u8
-#EXTINF:-1,BEIN SPORTS 2 4k
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1660426&extension=m3u8
-#EXTINF:-1,BEIN SPORTS 3 4k
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1660425&extension=m3u8
-## الرابعة
-#EXTINF:-1,AL RABIAA SPORT 1
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1649564&extension=m3u8
-#EXTINF:-1,AL RABIAA SPORT 2
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1649563&extension=m3u8
