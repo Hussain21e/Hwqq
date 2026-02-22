@@ -1,74 +1,16 @@
 #EXTM3U
 #EXTINF:-1,BEIN SPORTS 1
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294764&extension=m3u8
+http://lion20.top:8080/live/229815636887/192402289369/318197.m3u8
 #EXTINF:-1,BEIN SPORTS 2
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294763&extension=m3u8
+http://lion20.top:8080/live/229815636887/192402289369/318198.m3u8
 #EXTINF:-1,BEIN SPORTS 3
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294762&extension=m3u8
+http://lion20.top:8080/live/229815636887/192402289369/318199.m3u8
 #EXTINF:-1,BEIN SPORTS 4
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294761&extension=m3u8
+http://lion20.top:8080/live/229815636887/192402289369/440580.m3u8
 #EXTINF:-1,BEIN SPORTS 5
-http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1294760&extension=m3u8
+http://lion20.top:8080/live/229815636887/192402289369/318201.m3u8
 #EXTINF:-1,الرابعة رياضية
 http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1649564&extension=m3u8
-#EXTINF:-1,Bein News
-http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215401.m3u8
-#EXTINF:-1,beIN Global
-http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215622.m3u8
-#EXTINF:-1, G
-http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/226415.m3u8
-#EXTINF:-1,BEIN SPORTS 1
-http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215757.m3u8
-#EXTINF:-1,BEIN SPORTS 2
-http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215760.m3u8
-#EXTINF:-1,BEIN SPORTS 3
-http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215763.m3u8
-#EXTINF:-1,BEIN SPORTS 4
-http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215766.m3u8
-#EXTINF:-1,BEIN SPORTS 5
-http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215769.m3u8
-#EXTINF:-1,BEIN SPORTS 6
-http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215772.m3u8
-#EXTINF:-1,BEIN SPORTS 7
-http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215775.m3u8
-#EXTINF:-1,BEIN SPORTS 8
-http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215778.m3u8
-#EXTINF:-1,BEIN SPORTS 9
-http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215781.m3u8
-#EXTINF:-1,beIN SPORT XTRA 01
-http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215784.m3u8
-#EXTINF:-1,beIN SPORT XTRA 02
-http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215787.m3u8
-#EXTINF:-1,beIN SPORT XTRA 03
-http://matrix.raedisd.com:80/live/r26oPudZIl2i/r26oPudZIl2i/215790.m3u8
-#EXTINF:-1,beIN Sports News
-http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=44&extension=m3u8
-#EXTINF:-1,beIN SPORTS NEWS
-http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=22198&extension=m3u8
-#EXTINF:-1,beIN Sports Global
-http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=43&extension=m3u8
-#EXTINF:-1,beIN SPORTS GLOBAL
-http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=22199&extension=m3u8
-#EXTINF:-1,beIN
-http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=190369&extension=m3u8
-#EXTINF:-1,BEIN SPORTS 1
-http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=114053&extension=m3u8
-#EXTINF:-1,BEIN SPORTS 1
-http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=3854&extension=m3u8
-#EXTINF:-1,BEIN SPORTS 2
-http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=114052&extension=m3u8
-#EXTINF:-1,BEIN SPORTS 2
-http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=3853&extension=m3u8
-#EXTINF:-1,BEIN SPORTS 3
-http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=114050&extension=m3u8
-#EXTINF:-1,BEIN SPORTS 3
-http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=3851&extension=m3u8
-#EXTINF:-1,BEIN SPORTS 4
-http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=114049&extension=m3u8
-#EXTINF:-1,BEIN SPORTS 4
-http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=3850&extension=m3u8
-#EXTINF:-1,BEIN SPORTS 5
-http://ultav3.me/play/live.php?mac=00:1A:79:44:95:87&stream=114048&extension=m3u8
 #EXTINF:-1,الرابعة رياضية
 http://alpha-2ott.me:80/play/live.php?mac=00:1A:79:40:E9:A9&stream=1649564&extension=m3u8
 #EXTINF:-1,الثامنة 1
@@ -129,51 +71,6 @@ http://135.125.109.73:9000/beinsport3_.m3u8
 http://135.125.109.73:9000/beinsport4_.m3u8
 #EXTINF:-1,BEIN SPORTS 5
 http://135.125.109.73:9000/beinsport5_.m3u8
-#EXTINF:-1,AD SPORT 1
-http://stream.mytvplus.net:7012/sport/ch11/ch11_720.m3u8
-#EXTINF:-1,AD SPORT 2
-http://stream.mytvplus.net:7013/sport/ch12/ch12_720.m3u8
-#EXTINF:-1,BEIN SPORTS 1
-http://stream.mytvplus.net:7002/sport/ch1/ch1_360.m3u8
-#EXTINF:-1,BEIN SPORTS 2
-http://stream.mytvplus.net:7003/sport/ch2/ch2_360.m3u8
-#EXTINF:-1,BEIN SPORTS 3
-http://stream.mytvplus.net:7004/sport/ch3/ch3_360.m3u8
-#EXTINF:-1,BEIN SPORTS 4
-http://stream.mytvplus.net:7005/sport/ch4/ch4_360.m3u8
-#EXTINF:-1,BEIN SPORTS 5
-http://stream.mytvplus.net:7006/sport/ch5/ch5_360.m3u8
-#EXTINF:-1,BEIN SPORTS 6
-http://stream.mytvplus.net:7007/sport/ch6/ch6_360.m3u8
-#EXTINF:-1,BEIN SPORTS 7
-http://stream.mytvplus.net:7008/sport/ch7/ch7_360.m3u8
-#EXTINF:-1,BEIN SPORTS 8
-http://stream.mytvplus.net:7009/sport/ch8/ch8_360.m3u8
-#EXTINF:-1,BEIN SPORTS 9
-http://stream.mytvplus.net:7010/sport/ch9/ch9_360.m3u8
-#EXTINF:-1,BEIN SPORT MAX
-http://stream.mytvplus.net:7011/sport/ch10/ch10_360.m3u8
-#EXTINF:-1,AD SPORT 1
-http://stream.mytvplus.net:7012/sport/ch11/ch11_360.m3u8
-#
-#EXTINF:-1,beIN
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:79:F9:AE&stream=544456&extension=m3u8
-#EXTINF:-1,beIN
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:79:F9:AE&stream=996478&extension=m3u8
-#EXTINF:-1,beIN
-http://delta8k.xyz:80/play/live.php?mac=00:1A:79:79:F9:AE&stream=1543851&extension=m3u8
-#EXTINF:-1,beIN Sports 1
-http://cf.neo-cdn010.me:80/play/live.php?mac=00:1A:79:00:10:32&stream=264032&extension=m3u8
-#EXTINF:-1,BEIN SPORTS 1
-http://stream.mytvplus.net:7002/sport/ch1/ch1_1080.m3u8
-#EXTINF:-1,BEIN SPORTS 2
-http://stream.mytvplus.net:7003/sport/ch2/ch2_1080.m3u8
-#EXTINF:-1,BEIN SPORTS 3
-http://stream.mytvplus.net:7004/sport/ch3/ch3_1080.m3u8
-#EXTINF:-1,BEIN SPORTS 4
-http://stream.mytvplus.net:7005/sport/ch4/ch4_1080.m3u8
-#EXTINF:-1,BEIN SPORTS 5
-http://stream.mytvplus.net:7006/sport/ch5/ch5_1080.m3u8
 #EXTINF:-1,BEIN SPORT 02
 http://cf.neo-cdn010.me:80/play/live.php?mac=00:1A:79:00:10:32&stream=263883&extension=m3u8
 #EXTINF:-1,beIN
