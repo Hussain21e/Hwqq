@@ -1,34 +1,10 @@
 #EXTM3U
-## TOD
+##TOD
 #EXTINF:-1 tvg-name="┃WC┃ BEIN SPORTS MAX 1 HD [AR]" tvg-logo="http://picon.tivi-ott.net:25461/picon/WORLD CUP 2026/WORLD CUP 2026.png" group-title="┃WC┃ WORLD CUP 2026",┃WC┃ BEIN SPORTS MAX 1 HD [AR]
 http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1745083&extension=m3u8&play_token=M6EWBB9kTJ
 #EXTINF:-1 tvg-name="┃WC┃ BEIN SPORTS MAX 2 HD [AR]" tvg-logo="http://picon.tivi-ott.net:25461/picon/WORLD CUP 2026/WORLD CUP 2026.png" group-title="┃WC┃ WORLD CUP 2026",┃WC┃ BEIN SPORTS MAX 2 HD [AR]
 http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1745084&extension=m3u8&play_token=8TN4XuUu1o
-#EXTINF:-1 tvg-name="┃WC┃ BEIN SPORTS MAX 3 HD [EN]" tvg-logo="http://picon.tivi-ott.net:25461/picon/WORLD CUP 2026/WORLD CUP 2026.png" group-title="┃WC┃ WORLD CUP 2026",┃WC┃ BEIN SPORTS MAX 3 HD [EN]
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1745085&extension=m3u8&play_token=TZY1FCPLxY
-#EXTINF:-1 tvg-name="┃WC┃ BEIN SPORTS MAX 4 HD [EN]" tvg-logo="http://picon.tivi-ott.net:25461/picon/WORLD CUP 2026/WORLD CUP 2026.png" group-title="┃WC┃ WORLD CUP 2026",┃WC┃ BEIN SPORTS MAX 4 HD [EN]
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1745086&extension=m3u8&play_token=6xw3VrIbHj
-#EXTINF:-1 tvg-name="┃WC┃ BEIN SPORTS MAX 5 HD [FR]" tvg-logo="http://picon.tivi-ott.net:25461/picon/WORLD CUP 2026/WORLD CUP 2026.png" group-title="┃WC┃ WORLD CUP 2026",┃WC┃ BEIN SPORTS MAX 5 HD [FR]
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1745087&extension=m3u8&play_token=MzLxjEik9c
-#EXTINF:-1 tvg-name="┃WC┃ BEIN SPORTS MAX 6 HD [FR]" tvg-logo="http://picon.tivi-ott.net:25461/picon/WORLD CUP 2026/WORLD CUP 2026.png" group-title="┃WC┃ WORLD CUP 2026",┃WC┃ BEIN SPORTS MAX 6 HD [FR]
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1745088&extension=m3u8&play_token=8NGvTTqiJW
-#EXTINF:-1 tvg-name="┃AR┃ TOD WORLD CUP 2026 1 |" tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/TOD%20SPORT/TOD%20SPORT.png" group-title="┃AR┃ TOD WC 2026",┃AR┃ TOD WORLD CUP 2026 1 |
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1747260&extension=m3u8&play_token=JNgVIMKo3D
-#EXTINF:-1 tvg-name="┃AR┃ TOD WORLD CUP 2026 2 |" tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/TOD%20SPORT/TOD%20SPORT.png" group-title="┃AR┃ TOD WC 2026",┃AR┃ TOD WORLD CUP 2026 2 |
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1747261&extension=m3u8&play_token=8uSlMcK1oi
-#EXTINF:-1 tvg-name="┃AR┃ TOD WORLD CUP 2026 3 |" tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/TOD%20SPORT/TOD%20SPORT.png" group-title="┃AR┃ TOD WC 2026",┃AR┃ TOD WORLD CUP 2026 3 |
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1747262&extension=m3u8&play_token=2lEiro7byw
-#EXTINF:-1 tvg-name="┃AR┃ TOD WORLD CUP 2026 4 |" tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/TOD%20SPORT/TOD%20SPORT.png" group-title="┃AR┃ TOD WC 2026",┃AR┃ TOD WORLD CUP 2026 4 |
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1747263&extension=m3u8&play_token=NB2GMpCZOq
-#EXTINF:-1 tvg-name="┃AR┃ TOD WORLD CUP 2026 5 |" tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/TOD%20SPORT/TOD%20SPORT.png" group-title="┃AR┃ TOD WC 2026",┃AR┃ TOD WORLD CUP 2026 5 |
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1747264&extension=m3u8&play_token=UIOVJsvQyF
-#EXTINF:-1 tvg-name="┃AR┃ TOD WORLD CUP 2026 6 |" tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/TOD%20SPORT/TOD%20SPORT.png" group-title="┃AR┃ TOD WC 2026",┃AR┃ TOD WORLD CUP 2026 6 |
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1747265&extension=m3u8&play_token=XNGxfmpnJz
-#EXTINF:-1 tvg-name="┃AR┃ TOD WORLD CUP 2026 7 |" tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/TOD%20SPORT/TOD%20SPORT.png" group-title="┃AR┃ TOD WC 2026",┃AR┃ TOD WORLD CUP 2026 7 |
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1747266&extension=m3u8&play_token=ooTfieToU3
-#EXTINF:-1 tvg-name="┃AR┃ TOD WORLD CUP 2026 8 |" tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/TOD%20SPORT/TOD%20SPORT.png" group-title="┃AR┃ TOD WC 2026",┃AR┃ TOD WORLD CUP 2026 8 |
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1747267&extension=m3u8&play_token=kHcysQ5RFM
-## bein كأس العالم نتائج ضعيف
+##bein كأس العالم نتائج ضعيف
 #EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX SD ☰☰☰☰☰" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1745026&extension=ts&play_token=WmlrgkMPE8" group-title="┃AR┃ BEIN SPORTS MAX AP",☰☰☰☰☰ BEIN SPORTS MAX SD ☰☰☰☰☰
 http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1745026&extension=m3u8&play_token=qk7vRHe3nc
 #EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 SD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX AP",┃AR┃ BEIN SPORTS MAX 1 SD
@@ -63,19 +39,7 @@ http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?
 http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1747324&extension=m3u8&play_token=AwLhtpOT24
 #EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 4 SD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 4.png" group-title="┃AR┃ BEIN SPORTS MAX SS",┃AR┃ BEIN SPORTS MAX 4 SD
 http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1747325&extension=m3u8&play_token=Ib2wh74M0r
-#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 SD AR" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753678&extension=ts&play_token=CsTi2wGNOn" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 SD AR
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753678&extension=m3u8&play_token=nppWpzpW53
-#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 SD EN" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753680&extension=ts&play_token=n0C8AuKDP6" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 SD EN
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753680&extension=m3u8&play_token=IppMwY3dgr
-#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 SD FR" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753682&extension=ts&play_token=hQ82Vt8AOy" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 SD FR
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753682&extension=m3u8&play_token=sjcbX4xLHd
-#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 SD AR" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753679&extension=ts&play_token=anYoOenEvh" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 SD AR
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753679&extension=m3u8&play_token=2XfvmBMAFM
-#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 SD EN" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753681&extension=ts&play_token=dQKOf8zNzT" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 SD EN
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753681&extension=m3u8&play_token=u4u2LoBcZh
-#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 SD FR" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753683&extension=ts&play_token=eaVuUyzW3Q" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 SD FR
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753683&extension=m3u8&play_token=vLVjONHPxN
-## bein كأس العالم نتائج متوسط
+##bein كأس العالم نتائج متوسط
 #EXTINF:-1 tvg-name="┃FR┃ BEIN SPORTS MAX 4 FHD" tvg-logo="http://picon.tivi-ott.net:25461/picon/France/FR BEIN SPORTS/BEIN SPORTS MAX 4.png" group-title="┃FR┃ BEIN SPORTS",┃FR┃ BEIN SPORTS MAX 4 FHD
 http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=941426&extension=m3u8&play_token=skvao8fI2Z
 #EXTINF:-1 tvg-name="┃FR┃ BEIN SPORTS MAX 5 FHD" tvg-logo="http://picon.tivi-ott.net:25461/picon/France/FR BEIN SPORTS/BEIN SPORTS MAX 5.png" group-title="┃FR┃ BEIN SPORTS",┃FR┃ BEIN SPORTS MAX 5 FHD
@@ -172,14 +136,6 @@ http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?
 http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753660&extension=m3u8&play_token=tvGE2NL7qC
 #EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 HEVC AR" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753661&extension=ts&play_token=bTkubri1ug" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 HEVC AR
 http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753661&extension=m3u8&play_token=mwXNhNWjne
-#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 HEVC EN" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753663&extension=ts&play_token=4OrBAx869X" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 HEVC EN
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753663&extension=m3u8&play_token=n4BkKg1AZI
-#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 HEVC FR" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753665&extension=ts&play_token=pUuqsXxrXG" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 HEVC FR
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753665&extension=m3u8&play_token=pFARIpqOop
-#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 HEVC EN" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753662&extension=ts&play_token=j7A1DkfCho" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 HEVC EN
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753662&extension=m3u8&play_token=KGjsnFzjUq
-#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 HEVC FR" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753664&extension=ts&play_token=U9woa0GOJx" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 HEVC FR
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753664&extension=m3u8&play_token=DD5zBXYqIS
 #EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 FHD AR" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753666&extension=ts&play_token=939uDDMGiN" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 FHD AR
 http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753666&extension=m3u8&play_token=BHFNqKk3Vm
 #EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 FHD EN" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753668&extension=ts&play_token=FfSrvtZkZU" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 FHD EN
@@ -194,13 +150,3 @@ http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?
 http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753671&extension=m3u8&play_token=7cHNo6I58c
 #EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 HD AR" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753672&extension=ts&play_token=X16iTHtdzg" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 HD AR
 http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753672&extension=m3u8&play_token=oi4r9IG8vY
-#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 HD EN" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753674&extension=ts&play_token=EB26yLkPNZ" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 HD EN
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753674&extension=m3u8&play_token=Sa5cQbYvw1
-#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 HD FR" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753676&extension=ts&play_token=7Max8PVTTj" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 HD FR
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753676&extension=m3u8&play_token=S3bKFRnpHj
-#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 HD AR" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753673&extension=ts&play_token=vDRi57M7uM" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 HD AR
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753673&extension=m3u8&play_token=Z629GbLlsk
-#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 HD EN" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753675&extension=ts&play_token=rUrruqgC1o" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 HD EN
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753675&extension=m3u8&play_token=bNM1ZysWhO
-#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 HD FR" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1753677&extension=ts&play_token=7NSHXiQP69" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 HD FR
-http://main.light-ott.net:80/cffmpeg http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1753677&extension=m3u8&play_token=6bs5hFBzzz
