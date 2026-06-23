@@ -1,4 +1,15 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="BEIN SPORT 4K HDR" tvg-chno="3" tvg-logo="http://vodkom.com/worldcup/beinsport4k.webp" group-title="WORLD CUP 2026",BEIN SPORT 4K HDR
+http://sansatplus.net:88/live/chadiotech/40GXVELJTDMDMNP/2392060.ts
+#EXTINF:-1 tvg-name="|WC| BEIN MAX 1 4k (SA)" tvg-chno="4" tvg-logo="http://vodkom.com/worldcup/BEIN_SPORTS_1_MAX.png" group-title="WORLD CUP 2026",|WC| BEIN MAX 1 4k (SA)
+http://sansatplus.net:88/live/chadiotech/40GXVELJTDMDMNP/2392143.ts
+#EXTINF:-1 tvg-name="|WC| BEIN MAX 1 4K (NX)" tvg-chno="5" tvg-logo="http://vodkom.com/worldcup/BEIN_SPORTS_1_MAX.png" group-title="WORLD CUP 2026",|WC| BEIN MAX 1 4K (NX)
+http://sansatplus.net:88/live/chadiotech/40GXVELJTDMDMNP/2392144.ts
+#EXTINF:-1 tvg-name="|WC| BEIN MAX 1 HD (MSH)" tvg-chno="12" tvg-logo="http://vodkom.com/worldcup/BEIN_SPORTS_1_MAX.png" group-title="WORLD CUP 2026",|WC| BEIN MAX 1 HD (MSH)
+http://sansatplus.net:88/live/chadiotech/40GXVELJTDMDMNP/2392154.ts
+#EXTINF:-1 tvg-name="|WC| BEIN MAX 2 4k (SA)" tvg-chno="16" tvg-logo="http://vodkom.com/worldcup/BEIN_SPORTS_2_MAX.png" group-title="WORLD CUP 2026",|WC| BEIN MAX 2 4k (SA)
+http://sansatplus.net:88/live/chadiotech/40GXVELJTDMDMNP/2392062.ts
+#EXTINF:-1 tvg-name="|WC| BEIN MAX 2 4K (NX)" tvg-chno="17" tvg-logo="http://vodkom.com/worldcup/BEIN_SPORTS_2_MAX.png" group-title="WORLD CUP 2026",|WC| BEIN 
 #EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX RAW ☰☰☰☰☰" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1734315&extension=m3u8&play_token=r87OWfOfPU" group-title="┃AR┃ BEIN SPORTS MAX 8K",☰☰☰☰☰ BEIN SPORTS MAX RAW ☰☰☰☰☰
 http://main.light-ott.net:80/play/live.php?mac=00%3A1A%3A79%3AC6%3A34%3ADE&stream=1734315&extension=m3u8&play_token=KXs3QskdoO
 #EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 AR RAW" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX 8K",┃AR┃ BEIN SPORTS MAX 1 AR RAW
