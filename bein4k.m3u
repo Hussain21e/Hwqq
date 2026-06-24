@@ -35,3 +35,11 @@ http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=209
 #EXTINF:-1 tvg-name="WC-4K| BEIN SPORTS MAX ᵁᴴᴰ 4K NM" tvg-logo="http://51.158.145.100/picons/logos/bein/BEIN4.png" group-title="WORLD CUP 2026 ᵁᴴᴰ ³⁸⁴⁰ᴾ | 4K 🚀 نت قوي كلش",WC-4K| BEIN SPORTS MAX ᵁᴴᴰ 4K NM
 http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=2097322&extension=m3u8
 #EXTINF:-1 tvg-name="WC-4K| BEIN SPORTS MAX ᵁᴴᴰ 4K" tvg-logo="http://51.158.145.100/picons/logos/bein/BEIN4.png" group-title="WORLD CUP 2026 ᵁᴴᴰ ³⁸⁴⁰ᴾ | 4K 🚀 نت قوي كلش",WC-4K| BEIN SPORTS MAX ᵁᴴᴰ 4K
+#EXTINF:-1 tvg-name="BEIN MAX 1 FHD" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="BEIN SPORTS MAX BE",BEIN MAX 1 FHD
+http://hottest.plus:80/play/live.php?mac=00%3A1A%3A79%3AC2%3AC5%3AD3&stream=2085199&extension=m3u8
+#EXTINF:-1 tvg-name="BEIN MAX 1 SD" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="BEIN SPORTS MAX BE",BEIN MAX 1 SD
+http://hottest.plus:80/play/live.php?mac=00%3A1A%3A79%3AC2%3AC5%3AD3&stream=2085187&extension=m3u8&play_token=U2yBtE1lsv
+EXTINF:-1 tvg-name="BEIN MAX 2 FHD" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX BE",BEIN MAX 2 FHD
+http://hottest.plus:80/play/live.php?mac=00%3A1A%3A79%3AC2%3AC5%3AD3&stream=2085198&extension=m3u8
+#EXTINF:-1 tvg-name="BEIN MAX 2 SD" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX BE",BEIN MAX 2 SD
+http://hottest.plus:80/play/live.php?mac=00%3A1A%3A79%3AC2%3AC5%3AD3&stream=2085186&extension=m3u8&play_token=xpbxLcy8O7
