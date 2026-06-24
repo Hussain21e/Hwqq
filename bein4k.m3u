@@ -5,23 +5,23 @@ http://vpn.rivostv.space:80/live/HD2V5190/UT625339/1392991.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS MAX 2 نت ضعيفSD" tvg-id="beINSportsMax2.qa" tvg-chno="8" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX G",BEIN SPORTS MAX 2 نت ضعيفSD
 http://vpn.rivostv.space:80/live/HD2V5190/UT625339/1392987.m3u8
 
-#EXTINF:-1 tvg-name="BEIN SPORT 4K HDR نت قوي كلش" tvg-chno="3" tvg-logo="http://vodkom.com/worldcup/beinsport4k.webp" group-title="WORLD CUP 2026",BEIN SPORT 4K HDR
+#EXTINF:-1 tvg-name="BEIN SPORT 4K HDR نت قوي كلش" tvg-chno="3" tvg-logo="http://vodkom.com/worldcup/beinsport4k.webp" group-title="WORLD CUP 2026",BEIN SPORT 4K HDR نت قوي كلش
 http://sansatplus.net:88/live/chadiotech/40GXVELJTDMDMNP/2392060.ts
-#EXTINF:-1 tvg-name="|WC| BEIN MAX 1 4kنت قوي(SA)" tvg-chno="4" tvg-logo="http://vodkom.com/worldcup/BEIN_SPORTS_1_MAX.png" group-title="WORLD CUP 2026",|WC| BEIN MAX 1 4k (SA)
+#EXTINF:-1 tvg-name="|WC| BEIN MAX 1 4kنت قوي(SA)" tvg-chno="4" tvg-logo="http://vodkom.com/worldcup/BEIN_SPORTS_1_MAX.png" group-title="WORLD CUP 2026",|WC| BEIN MAX 1 4k (SA) نت قوي
 http://sansatplus.net:88/live/chadiotech/40GXVELJTDMDMNP/2392143.ts
-#EXTINF:-1 tvg-name="|WC| BEIN MAX 1 4Kنت قوي (NX)" tvg-chno="5" tvg-logo="http://vodkom.com/worldcup/BEIN_SPORTS_1_MAX.png" group-title="WORLD CUP 2026",|WC| BEIN MAX 1 4K (NX)
+#EXTINF:-1 tvg-name="|WC| BEIN MAX 1 4Kنت قوي (NX)" tvg-chno="5" tvg-logo="http://vodkom.com/worldcup/BEIN_SPORTS_1_MAX.png" group-title="WORLD CUP 2026",|WC| BEIN MAX 1 4K (NX) نت قوي
 http://sansatplus.net:88/live/chadiotech/40GXVELJTDMDMNP/2392144.ts
-#EXTINF:-1 tvg-name="|WC| BEIN MAX 1 HD نت متوسط(MSH)" tvg-chno="12" tvg-logo="http://vodkom.com/worldcup/BEIN_SPORTS_1_MAX.png" group-title="WORLD CUP 2026",|WC| BEIN MAX 1 HD (MSH)
+#EXTINF:-1 tvg-name="|WC| BEIN MAX 1 HD نت متوسط(MSH)" tvg-chno="12" tvg-logo="http://vodkom.com/worldcup/BEIN_SPORTS_1_MAX.png" group-title="WORLD CUP 2026",|WC| BEIN MAX 1 HD (MSH) نت قوي
 http://sansatplus.net:88/live/chadiotech/40GXVELJTDMDMNP/2392154.ts
-#EXTINF:-1 tvg-name="|WC| BEIN MAX 2 4kنت قوي (SA)" tvg-chno="16" tvg-logo="http://vodkom.com/worldcup/BEIN_SPORTS_2_MAX.png" group-title="WORLD CUP 2026",|WC| BEIN MAX 2 4k (SA)
+#EXTINF:-1 tvg-name="|WC| BEIN MAX 2 4kنت قوي (SA)" tvg-chno="16" tvg-logo="http://vodkom.com/worldcup/BEIN_SPORTS_2_MAX.png" group-title="WORLD CUP 2026",|WC| BEIN MAX 2 4k (SA) نت قوي
 http://sansatplus.net:88/live/chadiotech/40GXVELJTDMDMNP/2392062.ts
-#EXTINF:-1 tvg-name="BEIN SPORTS MAX 1 FHD" tvg-id="beINSportsMax1.qa" tvg-chno="1" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="BEIN SPORTS MAX G",BEIN SPORTS MAX 1 FHD
+#EXTINF:-1 tvg-name="BEIN SPORTS MAX 1 FHD" tvg-id="beINSportsMax1.qa" tvg-chno="1" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="BEIN SPORTS MAX G",BEIN SPORTS MAX 1 FHD نت قوي
 http://vpn.rivostv.space:80/live/HD2V5190/UT625339/1392994.m3u8
-#EXTINF:-1 tvg-name="BEIN SPORTS MAX 1 HD" tvg-id="beINSportsMax1.qa" tvg-chno="2" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="BEIN SPORTS MAX G",BEIN SPORTS MAX 1 HD
+#EXTINF:-1 tvg-name="BEIN SPORTS MAX 1 HD" tvg-id="beINSportsMax1.qa" tvg-chno="2" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="BEIN SPORTS MAX G",BEIN SPORTS MAX 1 HD نت متوسط
 http://vpn.rivostv.space:80/live/HD2V5190/UT625339/1392993.m3u8
-#EXTINF:-1 tvg-name="BEIN SPORTS MAX 2 FHD" tvg-id="beINSportsMax2.qa" tvg-chno="5" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX G",BEIN SPORTS MAX 2 FHD
+#EXTINF:-1 tvg-name="BEIN SPORTS MAX 2 FHD" tvg-id="beINSportsMax2.qa" tvg-chno="5" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX G",BEIN SPORTS MAX 2 FHD نت قوي
 http://vpn.rivostv.space:80/live/HD2V5190/UT625339/1392990.m3u8
-#EXTINF:-1 tvg-name="BEIN SPORTS MAX 2 HD" tvg-id="beINSportsMax2.qa" tvg-chno="6" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX G",BEIN SPORTS MAX 2 HD
+#EXTINF:-1 tvg-name="BEIN SPORTS MAX 2 HD" tvg-id="beINSportsMax2.qa" tvg-chno="6" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX G",BEIN SPORTS MAX 2 HD نت متوسط
 http://vpn.rivostv.space:80/live/HD2V5190/UT625339/1392989.m3u8
 #EXTINF:-1 tvg-name="|WC| BEIN MAX 2 4K (NX)" tvg-chno="17" tvg-logo="http://vodkom.com/worldcup/BEIN_SPORTS_2_MAX.png" group-title="WORLD CUP 2026",|WC| BEIN 
 #EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX RAW ☰☰☰☰☰" tvg-logo="ffmpeg http://main.light-ott.net:80/play/live.php?mac=00:1A:79:C6:34:DE&stream=1734315&extension=m3u8&play_token=r87OWfOfPU" group-title="┃AR┃ BEIN SPORTS MAX 8K",☰☰☰☰☰ BEIN SPORTS MAX RAW ☰☰☰☰☰
