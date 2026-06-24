@@ -1,41 +1,44 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="BEIN SPORTS MAX 1 نت ضعيفSD" tvg-id="beINSportsMax1.qa" tvg-chno="4" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="SD Channels",BEIN SPORTS MAX 1نت ضعيف SD
+## نت ضعيف
+#EXTINF:-1 tvg-name="BEIN SPORTS MAX 1 نت ضعيفSD" tvg-id="beINSportsMax1.qa" tvg-chno="4" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="BEIN SPORTS MAX G | SD 🔴 نت ضعيف",BEIN SPORTS MAX 1نت ضعيف SD
 http://vpn.rivostv.space:80/live/HD2V5190/UT625339/1392991.m3u8
-#EXTINF:-1 tvg-name="BEIN SPORTS MAX 2 نت ضعيفSD" tvg-id="beINSportsMax2.qa" tvg-chno="8" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="SD Channels",BEIN SPORTS MAX 2 نت ضعيفSD
+#EXTINF:-1 tvg-name="BEIN SPORTS MAX 2 نت ضعيفSD" tvg-id="beINSportsMax2.qa" tvg-chno="8" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX G | SD 🔴 نت ضعيف",BEIN SPORTS MAX 2 نت ضعيفSD
 http://vpn.rivostv.space:80/live/HD2V5190/UT625339/1392987.m3u8
-#EXTINF:-1 tvg-name="BEIN MAX 2 ˢᴰ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="SD Channels",BEIN MAX 2 ˢᴰ احتياطي
+#EXTINF:-1 tvg-name="BEIN MAX 2 ˢᴰ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX NM | SD 🔴 نت ضعيف",BEIN MAX 2 ˢᴰ احتياطي 
 http://mag.gofast-tv.me:80/play/live.php?mac=00%3A1A%3A79%3A03%3ADF%3A28&stream=2076965&extension=m3u8
-#EXTINF:-1 tvg-name="BEIN MAX 1 ˢᴰ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="SD Channels",BEIN MAX 1 ˢᴰ احتياطي
+#EXTINF:-1 tvg-name="BEIN MAX 1 ˢᴰ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="BEIN SPORTS MAX NM | SD 🔴 نت ضعيف",BEIN MAX 1 ˢᴰ احتياطي
 http://mag.gofast-tv.me:80/play/live.php?mac=00%3A1A%3A79%3A03%3ADF%3A28&stream=2076966&extension=m3u8
-#EXTINF:-1 tvg-name="BEIN MAX 1 ˢᴰ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="SD Channels",BEIN MAX 1 ˢᴰ
-http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=2076966&extension=m3u8&play_token=K9aFPVmtVf
-#EXTINF:-1 tvg-name="BEIN MAX 2 ˢᴰ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="SD Channels",BEIN MAX 2 ˢᴰ
-http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=2076965&extension=m3u8&play_token=29wnFRZfkU
-#EXTINF:-1 tvg-name="BEIN SPORTS MAX 1 HD" tvg-id="beINSportsMax1.qa" tvg-chno="2" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="HD Channels",BEIN SPORTS MAX 1 HD نت متوسط
-http://vpn.rivostv.space:80/live/HD2V5190/UT625339/1392993.m3u8
-#EXTINF:-1 tvg-name="BEIN SPORTS MAX 2 HD" tvg-id="beINSportsMax2.qa" tvg-chno="6" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="HD Channels",BEIN SPORTS MAX 2 HD نت متوسط
-http://vpn.rivostv.space:80/live/HD2V5190/UT625339/1392989.m3u8
-#EXTINF:-1 tvg-name="BEIN MAX 1 ᴴᴰ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="HD Channels",BEIN MAX 1 ᴴᴰ
-http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=2076972&extension=m3u8&play_token=89eYME0y2a
-#EXTINF:-1 tvg-name="BEIN MAX 2 ᴴᴰ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="HD Channels",BEIN MAX 2 ᴴᴰ
-http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=2076971&extension=m3u8&play_token=J2u7yLGUu0
-#EXTINF:-1 tvg-name="BEIN SPORTS MAX 1 FHD" tvg-id="beINSportsMax1.qa" tvg-chno="1" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="FHD Channels",BEIN SPORTS MAX 1 FHD نت قوي
-http://vpn.rivostv.space:80/live/HD2V5190/UT625339/1392994.m3u8
-#EXTINF:-1 tvg-name="BEIN SPORTS MAX 2 FHD" tvg-id="beINSportsMax2.qa" tvg-chno="5" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="FHD Channels",BEIN SPORTS MAX 2 FHD نت قوي
-http://vpn.rivostv.space:80/live/HD2V5190/UT625339/1392990.m3u8
-#EXTINF:-1 tvg-name="BEIN MAX 1 ᶠʰᵈ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="FHD Channels",BEIN MAX 1 ᶠʰᵈ
-http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=2076978&extension=m3u8&play_token=3hdvR91vL8
-#EXTINF:-1 tvg-name="BEIN MAX 2 ᶠʰᵈ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="FHD Channels",BEIN MAX 2 ᶠʰᵈ
-http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=2076977&extension=m3u8&play_token=L5gmMzcHlr
-#EXTINF:-1 tvg-name="BEIN SPORT 4K HDR" tvg-chno="3" tvg-logo="http://vodkom.com/worldcup/beinsport4k.webp" group-title="4K Channels",BEIN SPORT 4K HDR نت قوي كلش
+#EXTINF:-1 tvg-name="BEIN SPORT 4K HDR" tvg-chno="3" tvg-logo="http://vodkom.com/worldcup/beinsport4k.webp" group-title="WORLD CUP 2026 | 4K 🚀 نت قوي كلش",BEIN SPORT 4K HDR نت قوي كلش
 http://sansatplus.net:88/live/chadiotech/40GXVELJTDMDMNP/2392060.m3u8
-#EXTINF:-1 tvg-name="BEIN MAX 1 ⁴ᴷ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="4K Channels",BEIN MAX 1 ⁴ᴷ
+#EXTINF:-1 tvg-name="BEIN MAX 1 ⁴ᴷ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX NM | 4K 🚀 نت قوي كلش",BEIN MAX 1 ⁴ᴷ
 http://mag.gofast-tv.me:80/play/live.php?mac=00%3A1A%3A79%3A03%3ADF%3A28&stream=2076984&extension=m3u8&play_token=P7ZjuAg3um
-#EXTINF:-1 tvg-name="BEIN MAX 1 ⁴ᴷ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="4K Channels",BEIN MAX 1 ⁴ᴷ
+#EXTINF:-1 tvg-name="BEIN SPORTS MAX 1 FHD" tvg-id="beINSportsMax1.qa" tvg-chno="1" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="BEIN SPORTS MAX G | FHD 🟢 نت قوي",BEIN SPORTS MAX 1 FHD نت قوي
+http://vpn.rivostv.space:80/live/HD2V5190/UT625339/1392994.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS MAX 1 HD" tvg-id="beINSportsMax1.qa" tvg-chno="2" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="BEIN SPORTS MAX G | HD 🟡 نت متوسط",BEIN SPORTS MAX 1 HD نت متوسط
+http://vpn.rivostv.space:80/live/HD2V5190/UT625339/1392993.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS MAX 2 FHD" tvg-id="beINSportsMax2.qa" tvg-chno="5" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX G | FHD 🟢 نت قوي",BEIN SPORTS MAX 2 FHD نت قوي
+http://vpn.rivostv.space:80/live/HD2V5190/UT625339/1392990.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS MAX 2 HD" tvg-id="beINSportsMax2.qa" tvg-chno="6" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX G | HD 🟡 نت متوسط",BEIN SPORTS MAX 2 HD نت متوسط
+http://vpn.rivostv.space:80/live/HD2V5190/UT625339/1392989.m3u8
+#EXTM3U
+#EXTINF:-1 tvg-name="BEIN MAX 1 ˢᴰ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="BEIN SPORTS MAX NM | SD 🔴 نت ضعيف",BEIN MAX 1 ˢᴰ
+http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=2076966&extension=m3u8&play_token=K9aFPVmtVf
+#EXTINF:-1 tvg-name="BEIN MAX 1 ᴴᴰ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="BEIN SPORTS MAX NM | HD 🟡 نت متوسط",BEIN MAX 1 ᴴᴰ
+http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=2076972&extension=m3u8&play_token=89eYME0y2a
+#EXTINF:-1 tvg-name="BEIN MAX 1 ᶠʰᵈ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="BEIN SPORTS MAX NM",BEIN MAX 1 ᶠʰᵈ
+http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=2076978&extension=m3u8&play_token=3hdvR91vL8
+#EXTINF:-1 tvg-name="BEIN MAX 1 ⁴ᴷ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX NM | 4K 🚀 نت قوي كلش",BEIN MAX 1 ⁴ᴷ
 http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=2076984&extension=m3u8&play_token=jADIhvAqhs
-#EXTINF:-1 tvg-name="BEIN MAX 2 ⁴ᴷ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="4K Channels",BEIN MAX 2 ⁴ᴷ
+#EXTINF:-1 tvg-name="BEIN MAX 2 ˢᴰ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX NM | SD 🔴 نت ضعيف",BEIN MAX 2 ˢᴰ
+http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=2076965&extension=m3u8&play_token=29wnFRZfkU
+#EXTINF:-1 tvg-name="BEIN MAX 2 ᴴᴰ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX NM | HD 🟡 نت متوسط",BEIN MAX 2 ᴴᴰ
+http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=2076971&extension=m3u8&play_token=J2u7yLGUu0
+#EXTINF:-1 tvg-name="BEIN MAX 2 ᶠʰᵈ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX NM",BEIN MAX 2 ᶠʰᵈ
+http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=2076977&extension=m3u8&play_token=L5gmMzcHlr
+#EXTINF:-1 tvg-name="BEIN MAX 2 ⁴ᴷ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX NM | 4K 🚀 نت قوي كلش",BEIN MAX 2 ⁴ᴷ
 http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=2076983&extension=m3u8&play_token=Kf3Bd1f9Oc
-#EXTINF:-1 tvg-name="WC-4K| BEIN SPORTS MAX ᵁᴴᴰ 4K FM" tvg-logo="http://51.158.145.100/picons/logos/bein/BEIN4.png" group-title="4K Channels",WC-4K| BEIN SPORTS MAX ᵁᴴᴰ 4K FM
+#EXTINF:-1 tvg-name="WC-4K| BEIN SPORTS MAX ᵁᴴᴰ 4K FM" tvg-logo="http://51.158.145.100/picons/logos/bein/BEIN4.png" group-title="WORLD CUP 2026 ᵁᴴᴰ ³⁸⁴⁰ᴾ | 4K 🚀 نت قوي كلش",WC-4K| BEIN SPORTS MAX ᵁᴴᴰ 4K FM
 http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=2098112&extension=m3u8
-#EXTINF:-1 tvg-name="WC-4K| BEIN SPORTS MAX ᵁᴴᴰ 4K NM" tvg-logo="http://51.158.145.100/picons/logos/bein/BEIN4.png" group-title="4K Channels",WC-4K| BEIN SPORTS MAX ᵁᴴᴰ 4K NM
+#EXTINF:-1 tvg-name="WC-4K| BEIN SPORTS MAX ᵁᴴᴰ 4K NM" tvg-logo="http://51.158.145.100/picons/logos/bein/BEIN4.png" group-title="WORLD CUP 2026 ᵁᴴᴰ ³⁸⁴⁰ᴾ | 4K 🚀 نت قوي كلش",WC-4K| BEIN SPORTS MAX ᵁᴴᴰ 4K NM
 http://line.chumala.com/play/live.php?mac=00%3A1A%3A79%3A2F%3AB7%3AC2&stream=2097322&extension=m3u8
+#EXTINF:-1 tvg-name="WC-4K| BEIN SPORTS MAX ᵁᴴᴰ 4K" tvg-logo="http://51.158.145.100/picons/logos/bein/BEIN4.png" group-title="WORLD CUP 2026 ᵁᴴᴰ ³⁸⁴⁰ᴾ | 4K 🚀 نت قوي كلش",WC-4K| BEIN SPORTS MAX ᵁᴴᴰ 4K
