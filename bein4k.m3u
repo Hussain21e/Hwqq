@@ -10,6 +10,8 @@ http://mag.gofast-tv.me:80/play/live.php?mac=00%3A1A%3A79%3A03%3ADF%3A28&stream=
 http://mag.gofast-tv.me:80/play/live.php?mac=00%3A1A%3A79%3A03%3ADF%3A28&stream=2076966&extension=m3u8
 #EXTINF:-1 tvg-name="BEIN SPORT 4K HDR" tvg-chno="3" tvg-logo="http://vodkom.com/worldcup/beinsport4k.webp" group-title="WORLD CUP 2026",BEIN SPORT 4K HDR نت قوي كلش
 http://sansatplus.net:88/live/chadiotech/40GXVELJTDMDMNP/2392060.m3u8
+#EXTINF:-1 tvg-name="BEIN MAX 1 ⁴ᴷ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="BEIN SPORTS MAX NM",BEIN MAX 1 ⁴ᴷ
+http://mag.gofast-tv.me:80/play/live.php?mac=00%3A1A%3A79%3A03%3ADF%3A28&stream=2076984&extension=m3u8&play_token=P7ZjuAg3um
 #EXTINF:-1 tvg-name="BEIN SPORTS MAX 1 FHD" tvg-id="beINSportsMax1.qa" tvg-chno="1" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="BEIN SPORTS MAX G",BEIN SPORTS MAX 1 FHD نت قوي
 http://vpn.rivostv.space:80/live/HD2V5190/UT625339/1392994.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS MAX 1 HD" tvg-id="beINSportsMax1.qa" tvg-chno="2" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="BEIN SPORTS MAX G",BEIN SPORTS MAX 1 HD نت متوسط
