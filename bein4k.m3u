@@ -1,4 +1,160 @@
-#EXTM3U
+#EXTM3U 
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 4K HDR" tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/TOD%20SPORT/TOD%20SPORT.png" group-title="┃AR┃ TOD WC 2026",┃AR┃ BEIN SPORTS MAX 4K HDR
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1758742&extension=m3u8&play_token=OXOQuoJfkJ
+#EXTINF:-1 tvg-name="┃AR┃ TOD WORLD CUP 2026 1 |" tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/TOD%20SPORT/TOD%20SPORT.png" group-title="┃AR┃ TOD WC 2026",┃AR┃ TOD WORLD CUP 2026 1 |
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1747260&extension=m3u8&play_token=chnSPLs7a4
+#EXTINF:-1 tvg-name="┃AR┃ TOD WORLD CUP 2026 2 |" tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/TOD%20SPORT/TOD%20SPORT.png" group-title="┃AR┃ TOD WC 2026",┃AR┃ TOD WORLD CUP 2026 2 |
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1747261&extension=m3u8&play_token=UMYNQcSX74
+#EXTINF:-1 tvg-name="┃AR┃ TOD WORLD CUP 2026 3 |" tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/TOD%20SPORT/TOD%20SPORT.png" group-title="┃AR┃ TOD WC 2026",┃AR┃ TOD WORLD CUP 2026 3 |
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1747262&extension=m3u8&play_token=L2VlZgxPOK
+#EXTINF:-1 tvg-name="┃AR┃ TOD WORLD CUP 2026 4 |" tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/TOD%20SPORT/TOD%20SPORT.png" group-title="┃AR┃ TOD WC 2026",┃AR┃ TOD WORLD CUP 2026 4 |
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1747263&extension=m3u8&play_token=uFXKS8Zjjt
+#EXTINF:-1 tvg-name="┃AR┃ TOD WORLD CUP 2026 5 |" tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/TOD%20SPORT/TOD%20SPORT.png" group-title="┃AR┃ TOD WC 2026",┃AR┃ TOD WORLD CUP 2026 5 |
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1747264&extension=m3u8&play_token=AxrhJIB1a8
+#EXTINF:-1 tvg-name="┃AR┃ TOD WORLD CUP 2026 6 |" tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/TOD%20SPORT/TOD%20SPORT.png" group-title="┃AR┃ TOD WC 2026",┃AR┃ TOD WORLD CUP 2026 6 |
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1747265&extension=m3u8&play_token=Rnk4LWLanF
+#EXTINF:-1 tvg-name="┃AR┃ TOD WORLD CUP 2026 7 |" tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/TOD%20SPORT/TOD%20SPORT.png" group-title="┃AR┃ TOD WC 2026",┃AR┃ TOD WORLD CUP 2026 7 |
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1747266&extension=m3u8&play_token=zS3YR226QO
+#EXTINF:-1 tvg-name="┃AR┃ TOD WORLD CUP 2026 8 |" tvg-logo="http://picon.tivi-ott.net:25461/picon/ARABIA/TOD%20SPORT/TOD%20SPORT.png" group-title="┃AR┃ TOD WC 2026",┃AR┃ TOD WORLD CUP 2026 8 |
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1747267&extension=m3u8&play_token=iTT7S0Tndc
+#EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX RAW ☰☰☰☰☰" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1734315&extension=ts&play_token=WXsFoZfWln" group-title="┃AR┃ BEIN SPORTS MAX 8K",☰☰☰☰☰ BEIN SPORTS MAX RAW ☰☰☰☰☰
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1734315&extension=m3u8&play_token=3OCaVtryia
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 AR RAW" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX 8K",┃AR┃ BEIN SPORTS MAX 1 AR RAW
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1734316&extension=m3u8&play_token=ezlsMOB3j5
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 AR RAW" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 2.png" group-title="┃AR┃ BEIN SPORTS MAX 8K",┃AR┃ BEIN SPORTS MAX 2 AR RAW
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1734317&extension=m3u8&play_token=6U3jNSJinQ
+#EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX HEVC ☰☰☰☰☰" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1734308&extension=ts&play_token=Z9e5BjrRRV" group-title="┃AR┃ BEIN SPORTS MAX 8K",☰☰☰☰☰ BEIN SPORTS MAX HEVC ☰☰☰☰☰
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1734308&extension=m3u8&play_token=X8KqFtyf3F
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 AR HEVC" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX 8K",┃AR┃ BEIN SPORTS MAX 1 AR HEVC
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1734309&extension=m3u8&play_token=sIIsnbxyYt
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 AR HEVC" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 2.png" group-title="┃AR┃ BEIN SPORTS MAX 8K",┃AR┃ BEIN SPORTS MAX 2 AR HEVC
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1734310&extension=m3u8&play_token=fUfJW4L13D
+#EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX HD ☰☰☰☰☰" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1734294&extension=ts&play_token=t9CZ6Mpi5Z" group-title="┃AR┃ BEIN SPORTS MAX 8K",☰☰☰☰☰ BEIN SPORTS MAX HD ☰☰☰☰☰
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1734294&extension=m3u8&play_token=IQTeI8zv3y
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 AR HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX 8K",┃AR┃ BEIN SPORTS MAX 1 AR HD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1734295&extension=m3u8&play_token=ETJ7U0Vvxh
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 AR HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 2.png" group-title="┃AR┃ BEIN SPORTS MAX 8K",┃AR┃ BEIN SPORTS MAX 2 AR HD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1734296&extension=m3u8&play_token=jD5qDc24Y5
+#EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX SD ☰☰☰☰☰" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1734301&extension=ts&play_token=1Xnr861zaN" group-title="┃AR┃ BEIN SPORTS MAX 8K",☰☰☰☰☰ BEIN SPORTS MAX SD ☰☰☰☰☰
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1734301&extension=m3u8&play_token=g2ssoJXXjQ
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 AR SD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX 8K",┃AR┃ BEIN SPORTS MAX 1 AR SD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1734302&extension=m3u8&play_token=AX2JI5j26M
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 AR SD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 2.png" group-title="┃AR┃ BEIN SPORTS MAX 8K",┃AR┃ BEIN SPORTS MAX 2 AR SD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1734303&extension=m3u8&play_token=7geuVs3F43
+#EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX FHD ☰☰☰☰☰" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 4.png" group-title="┃AR┃ BEIN SPORTS MAX SS",☰☰☰☰☰ BEIN SPORTS MAX FHD ☰☰☰☰☰
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1747311&extension=m3u8&play_token=jItdu6UBUj
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 FHD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX SS",┃AR┃ BEIN SPORTS MAX 1 FHD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1747312&extension=m3u8&play_token=dP2yjrmH4m
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 FHD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 2.png" group-title="┃AR┃ BEIN SPORTS MAX SS",┃AR┃ BEIN SPORTS MAX 2 FHD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1747313&extension=m3u8&play_token=xAbxnaox2A
+#EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX HD ☰☰☰☰☰" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 4.png" group-title="┃AR┃ BEIN SPORTS MAX SS",☰☰☰☰☰ BEIN SPORTS MAX HD ☰☰☰☰☰
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1747316&extension=m3u8&play_token=M2X5ppnvW6
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX SS",┃AR┃ BEIN SPORTS MAX 1 HD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1747317&extension=m3u8&play_token=KohcBNftPE
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX SS",┃AR┃ BEIN SPORTS MAX 2 HD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1747318&extension=m3u8&play_token=2r2rlI1Uh3
+#EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX SD ☰☰☰☰☰" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 4.png" group-title="┃AR┃ BEIN SPORTS MAX SS",☰☰☰☰☰ BEIN SPORTS MAX SD ☰☰☰☰☰
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1747321&extension=m3u8&play_token=07nv6aGjxh
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 SD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX SS",┃AR┃ BEIN SPORTS MAX 1 SD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1747322&extension=m3u8&play_token=UcV0edMPZg
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 SD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX SS",┃AR┃ BEIN SPORTS MAX 2 SD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1747323&extension=m3u8&play_token=5DTMix3O1B
+#EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX RAW ☰☰☰☰☰" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1745011&extension=ts&play_token=BZyMSDxFYH" group-title="┃AR┃ BEIN SPORTS MAX AP",☰☰☰☰☰ BEIN SPORTS MAX RAW ☰☰☰☰☰
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745011&extension=m3u8&play_token=4q4pOsXlyD
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 RAW" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX AP",┃AR┃ BEIN SPORTS MAX 1 RAW
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745015&extension=m3u8&play_token=d9vQYgCCxw
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 RAW" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 2.png" group-title="┃AR┃ BEIN SPORTS MAX AP",┃AR┃ BEIN SPORTS MAX 2 RAW
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745014&extension=m3u8&play_token=yk4ZuzC5DI
+#EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX FHD ☰☰☰☰☰" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1745016&extension=ts&play_token=SPTNSXpMql" group-title="┃AR┃ BEIN SPORTS MAX AP",☰☰☰☰☰ BEIN SPORTS MAX FHD ☰☰☰☰☰
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745016&extension=m3u8&play_token=it0togvUTY
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 FHD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX AP",┃AR┃ BEIN SPORTS MAX 1 FHD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745020&extension=m3u8&play_token=249FdO6r0t
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 FHD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 2.png" group-title="┃AR┃ BEIN SPORTS MAX AP",┃AR┃ BEIN SPORTS MAX 2 FHD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745019&extension=m3u8&play_token=lqjkWI5iQ3
+#EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX HD ☰☰☰☰☰" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1745021&extension=ts&play_token=Cm8iw4geD6" group-title="┃AR┃ BEIN SPORTS MAX AP",☰☰☰☰☰ BEIN SPORTS MAX HD ☰☰☰☰☰
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745021&extension=m3u8&play_token=p9azJ7tbKD
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX AP",┃AR┃ BEIN SPORTS MAX 1 HD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745022&extension=m3u8&play_token=W0MupG6mR8
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 2.png" group-title="┃AR┃ BEIN SPORTS MAX AP",┃AR┃ BEIN SPORTS MAX 2 HD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745023&extension=m3u8&play_token=X9prc077Bw
+#EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX SD ☰☰☰☰☰" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1745026&extension=ts&play_token=bBpSzz2rVt" group-title="┃AR┃ BEIN SPORTS MAX AP",☰☰☰☰☰ BEIN SPORTS MAX SD ☰☰☰☰☰
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745026&extension=m3u8&play_token=wdFuEA8BaR
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 SD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX AP",┃AR┃ BEIN SPORTS MAX 1 SD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745030&extension=m3u8&play_token=3dEAmbGKEy
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 SD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 2.png" group-title="┃AR┃ BEIN SPORTS MAX AP",┃AR┃ BEIN SPORTS MAX 2 SD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745029&extension=m3u8&play_token=mqYq0jFaQE
+#EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX RAW ☰☰☰☰☰" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1745031&extension=ts&play_token=460DLdCgT2" group-title="┃AR┃ BEIN SPORTS MAX F",☰☰☰☰☰ BEIN SPORTS MAX RAW ☰☰☰☰☰
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745031&extension=m3u8&play_token=zfnR4K6AVI
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 RAW" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX F",┃AR┃ BEIN SPORTS MAX 1 RAW
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745035&extension=m3u8&play_token=EMBVHcvALP
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 RAW" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 2.png" group-title="┃AR┃ BEIN SPORTS MAX F",┃AR┃ BEIN SPORTS MAX 2 RAW
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745034&extension=m3u8&play_token=swzfZkh95F
+#EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX FHD ☰☰☰☰☰" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1745036&extension=ts&play_token=5JZ9g4sElF" group-title="┃AR┃ BEIN SPORTS MAX F",☰☰☰☰☰ BEIN SPORTS MAX FHD ☰☰☰☰☰
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745036&extension=m3u8&play_token=3DBQ2jVsK8
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 FHD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX F",┃AR┃ BEIN SPORTS MAX 1 FHD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745040&extension=m3u8&play_token=Becg82cDJK
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 FHD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 2.png" group-title="┃AR┃ BEIN SPORTS MAX F",┃AR┃ BEIN SPORTS MAX 2 FHD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745039&extension=m3u8&play_token=Wyt7Ii1fAR
+#EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX HD ☰☰☰☰☰" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1745041&extension=ts&play_token=gB2g4cPH0g" group-title="┃AR┃ BEIN SPORTS MAX F",☰☰☰☰☰ BEIN SPORTS MAX HD ☰☰☰☰☰
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745041&extension=m3u8&play_token=oVJTDNoRcc
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX F",┃AR┃ BEIN SPORTS MAX 1 HD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745042&extension=m3u8&play_token=vKY6Wfk2wd
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 2.png" group-title="┃AR┃ BEIN SPORTS MAX F",┃AR┃ BEIN SPORTS MAX 2 HD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745043&extension=m3u8&play_token=D2Bes7lZtN
+#EXTINF:-1 tvg-name="☰☰☰☰☰ BEIN SPORTS MAX SD ☰☰☰☰☰" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1745046&extension=ts&play_token=uizfQJvhMC" group-title="┃AR┃ BEIN SPORTS MAX F",☰☰☰☰☰ BEIN SPORTS MAX SD ☰☰☰☰☰
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745046&extension=m3u8&play_token=kEaRBqjHII
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 SD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 1.png" group-title="┃AR┃ BEIN SPORTS MAX F",┃AR┃ BEIN SPORTS MAX 1 SD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745050&extension=m3u8&play_token=6B2WMfXgwD
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 SD" tvg-logo="http://picon.tivi-ott.net:25461/picon/ALBANIA/BEIN SPORTS/BEIN SPORTS 2.png" group-title="┃AR┃ BEIN SPORTS MAX F",┃AR┃ BEIN SPORTS MAX 2 SD
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1745049&extension=m3u8&play_token=rGvGjjy31W
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 HEVC AR" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753660&extension=ts&play_token=vhK5dkduBf" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 HEVC AR
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753660&extension=m3u8&play_token=EyU9rpL8Dp
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 HEVC AR" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753661&extension=ts&play_token=RcCw22M0zK" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 HEVC AR
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753661&extension=m3u8&play_token=QXtg1NYLst
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 HEVC EN" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753663&extension=ts&play_token=5lIM78NRZl" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 HEVC EN
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753663&extension=m3u8&play_token=RsgdkHXPd9
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 HEVC FR" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753665&extension=ts&play_token=H9sDO69kSS" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 HEVC FR
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753665&extension=m3u8&play_token=OJs1UKtGFm
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 HEVC EN" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753662&extension=ts&play_token=Ce5x8DpzDT" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 HEVC EN
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753662&extension=m3u8&play_token=0nwjvAcsgX
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 HEVC FR" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753664&extension=ts&play_token=1WFiBHHq3M" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 HEVC FR
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753664&extension=m3u8&play_token=unXMdE2pEu
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 FHD AR" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753666&extension=ts&play_token=vBE4Dy9Jpf" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 FHD AR
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753666&extension=m3u8&play_token=AGLZ9uTyBA
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 FHD EN" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753668&extension=ts&play_token=3ksGth20sw" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 FHD EN
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753668&extension=m3u8&play_token=AA96NCWfNg
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 FHD FR" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753670&extension=ts&play_token=fmYq22b4o0" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 FHD FR
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753670&extension=m3u8&play_token=0cMFf5Q3wD
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 FHD AR" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753667&extension=ts&play_token=yyHXd1Adne" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 FHD AR
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753667&extension=m3u8&play_token=PZ62ssFb6i
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 FHD EN" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753669&extension=ts&play_token=zcqNJud2O2" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 FHD EN
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753669&extension=m3u8&play_token=aOxjXJEHi4
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 FHD FR" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753671&extension=ts&play_token=BN7qRnSSVT" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 FHD FR
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753671&extension=m3u8&play_token=nZ3VQVXd2Z
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 HD AR" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753672&extension=ts&play_token=U2MGDy0Ieo" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 HD AR
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753672&extension=m3u8&play_token=lvN1r49lD0
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 HD EN" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753674&extension=ts&play_token=lAlqPhFEo7" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 HD EN
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753674&extension=m3u8&play_token=TocVttBZZr
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 HD FR" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753676&extension=ts&play_token=MRgqrvagoQ" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 HD FR
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753676&extension=m3u8&play_token=q2auH1oTtl
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 HD AR" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753673&extension=ts&play_token=RCfK3vqTxZ" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 HD AR
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753673&extension=m3u8&play_token=Y01DoZNVQ5
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 HD EN" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753675&extension=ts&play_token=iwJqjAedkI" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 HD EN
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753675&extension=m3u8&play_token=Fi0mj6RW2P
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 HD FR" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753677&extension=ts&play_token=PUK5eM05ck" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 HD FR
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753677&extension=m3u8&play_token=fm2UXGE4PA
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 SD AR" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753678&extension=ts&play_token=PnM302WaqV" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 SD AR
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753678&extension=m3u8&play_token=msJ9Mw6SQP
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 SD EN" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753680&extension=ts&play_token=TdQncRZ0oI" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 SD EN
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753680&extension=m3u8&play_token=MQG3ulrXBW
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 1 SD FR" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753682&extension=ts&play_token=vUr0lKJtRr" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 1 SD FR
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753682&extension=m3u8&play_token=R4iRGHE8oG
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 SD AR" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753679&extension=ts&play_token=1EK7jwLqW2" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 SD AR
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753679&extension=m3u8&play_token=i18HLKVZX1
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 SD EN" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753681&extension=ts&play_token=jaZhLIGPgw" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 SD EN
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753681&extension=m3u8&play_token=bNarCFlpNP
+#EXTINF:-1 tvg-name="┃AR┃ BEIN SPORTS MAX 2 SD FR" tvg-logo="ffmpeg http://line.turbokijken.com:80/play/live.php?mac=00:1A:79:F2:EB:BE&stream=1753683&extension=ts&play_token=MabcsmccMx" group-title="┃AR┃ BEIN SPORTS MAX NM",┃AR┃ BEIN SPORTS MAX 2 SD FR
+http://line.turbokijken.com:80/play/live.php?mac=00%3A1A%3A79%3AF2%3AEB%3ABE&stream=1753683&extension=m3u8&play_token=l2y1EbA0S5
 # --- beIN Sports SD | 🔴 نت ضعيف ---
 #EXTINF:-1 tvg-name="BEIN MAX 2 ˢᴰ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="beIN Sports SD | 🔴 نت ضعيف",BEIN MAX 2 ˢᴰ احتياطي nx
 http://mag.gofast-tv.me:80/play/live.php?mac=00%3A1A%3A79%3A03%3ADF%3A28&stream=2076965&extension=m3u8
