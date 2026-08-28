@@ -9,4 +9,8 @@ http://185.191.126.127:8080/live/////////b0:99:d7:15:88:50/3090914536649669/4181
 http://185.191.126.127:8080/live/////////b0:99:d7:15:88:50/3090914536649669/418121.m3u8
 #EXTINF:-1 tvg-id="bein-sports-5" tvg-name="بين سبورت 5" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_05_hd.png" group-title="رياضة",بين سبورت 5
 http://185.191.126.127:8080/live/////////b0:99:d7:15:88:50/3090914536649669/418124.m3u8
+#EXTINF:-1 tvg-id="bein-sports-6" tvg-name="بين سبورت 6" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_06_hd.png" group-title="رياضة",بين سبورت 6
+http://185.191.126.127:8080/live/////////b0:99:d7:15:88:50/3090914536649669/418127.m3u8
+#EXTINF:-1 tvg-id="bein-sports-7" tvg-name="بين سبورت 7" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_07_hd.png" group-title="رياضة",بين سبورت 7
+http://185.191.126.127:8080/live///b0:99:d7:15:88:50/3090914536649669/433739.m3u8
 
