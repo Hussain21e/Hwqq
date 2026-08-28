@@ -1,3 +1,5 @@
 #EXTM3
-#EXTINF:-1 رياضة 1
-http://185.191.126.127:8080/live//////////b0:99:d7:15:88:50/3090914536649669/418112.ts
+#EXTM3U
+# --- beIN Sports 1|
+#EXTINF:-1 tvg-name="BEIN MAX 2 ˢᴰ" tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="beIN Sports
+http://185.191.126.127:8080/live//////////b0:99:d7:15:88:50/3090914536649669/418112.m3u8
