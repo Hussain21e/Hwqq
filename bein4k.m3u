@@ -2,11 +2,11 @@
 #EXTINF:-1 tvg-id="bein-sports-1" tvg-name="بين سبورت 1" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_01_hd.png" group-title="رياضة",بين سبورت 1
 http://185.191.126.127:8080/live//////////b0:99:d7:15:88:50/3090914536649669/418112.m3u8
 #EXTINF:-1 tvg-id="bein-sports-1-backup" tvg-name="بين سبورت 1 — احتياطي" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_01_hd.png" group-title="رياضة — احتياطي",بين سبورت 1 — احتياطي
-http://217.60.15.177:8080///b0:99:d7:15:88:50/3090914536649669/318197?token=yXzbaHc.czUcX.X.faUdz.yHXfzUzbbd.X.y.IQ.ts.94d8ab3dbe0a5747e458dcc52f18fef21a879e6ea1b3e5cd1b70641bde24b5e3.199739.RWFydGhsaW5rIFRlbGVjb21tdW5pY2F0aW9ucyBFcXVpcG1lbnQgVHJhZGluZyAmIFM=.MTg1LjE5MS4xMjYuMTI3
+http://217.60.15.177:8080///b0:99:d7:15:88:50/3090914536649669/318197
 #EXTINF:-1 tvg-id="bein-sports-2" tvg-name="بين سبورت 2" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_02_hd.png" group-title="رياضة",بين سبورت 2
 http://185.191.126.127:8080/live//////////b0:99:d7:15:88:50/3090914536649669/418115.m3u8
 #EXTINF:-1 tvg-id="bein-sports-2-backup" tvg-name="بين سبورت 2 — احتياطي" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_02_hd.png" group-title="رياضة — احتياطي",بين سبورت 2 — احتياطي
-http://185.191.126.127:8080///b0:99:d7:15:88:50/3090914536649669/318197
+http://185.191.126.127:8080///b0:99:d7:15:88:50/3090914536649669/318198
 #EXTINF:-1 tvg-id="bein-sports-3" tvg-name="بين سبورت 3" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_03_hd.png" group-title="رياضة",بين سبورت 3
 http://185.191.126.127:8080/live/////////b0:99:d7:15:88:50/3090914536649669/418118.m3u8
 #EXTINF:-1 tvg-id="bein-sports-3-backup" tvg-name="بين سبورت 3 — احتياطي" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_03_hd.png" group-title="رياضة — احتياطي",بين سبورت 3 — احتياطي
