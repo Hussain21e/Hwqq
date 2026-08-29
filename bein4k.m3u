@@ -37,3 +37,32 @@ http://185.191.126.127:8080/live//////////b0:99:d7:15:88:50/3090914536649669/460
 http://185.191.126.127:8080/live//////////b0:99:d7:15:88:50/3090914536649669/460837.m3u8
 #EXTINF:-1 tvg-id="tod-3" tvg-name="TOD 3" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663829865944/HiSacKsOvzHZTDHB.webp" group-title="TOD",TOD 3
 http://185.191.126.127:8080/live//////////b0:99:d7:15:88:50/3090914536649669/460838.m3u8
+##bb
+#EXTINF:-1 tvg-name="beIN Tod 4k" tvg-chno="1" group-title="beIN Tod",beIN Tod 4k
+http://xlion.net:8080/live/Hn544326/3177334236/460835.m3u8
+#EXTINF:-1 tvg-name="beIN Sport Tod 1" tvg-chno="2" group-title="beIN Tod",beIN Sport Tod 1
+http://xlion.net:8080/live/Hn544326/3177334236/460836.m3u8
+#EXTINF:-1 tvg-name="beIN Sport Tod 2" tvg-chno="3" group-title="beIN Tod",beIN Sport Tod 2
+http://xlion.net:8080/live/Hn544326/3177334236/460837.m3u8
+#EXTINF:-1 tvg-name="beIN Sport Tod 3" tvg-chno="4" group-title="beIN Tod",beIN Sport Tod 3
+http://xlion.net:8080/live/Hn544326/3177334236/460838.m3u8
+#EXTINF:-1 tvg-name="beIN Sport 1 4k" tvg-chno="3" tvg-logo="http://51.158.158.30/world_tv_logos/bein-1.png" group-title="beIN Sport 4K",beIN Sport 1 4k
+http://xlion.net:8080/live/Hn544326/3177334236/318197.m3u8
+#EXTINF:-1 tvg-name="beIN1 H265" tvg-chno="4" tvg-logo="http://51.158.158.30/world_tv_logos/bein-1.png" group-title="beIN Sport 4K",beIN1 H265
+http://xlion.net:8080/live/Hn544326/3177334236/391094.m3u8
+#EXTINF:-1 tvg-name="beIN Sport 2 4k" tvg-chno="5" tvg-logo="http://51.158.158.30/world_tv_logos/bein-2.png" group-title="beIN Sport 4K",beIN Sport 2 4k
+http://xlion.net:8080/live/Hn544326/3177334236/318198.m3u8
+#EXTINF:-1 tvg-name="beIN2 H265" tvg-chno="6" tvg-logo="http://51.158.158.30/world_tv_logos/bein-2.png" group-title="beIN Sport 4K",beIN2 H265
+http://xlion.net:8080/live/Hn544326/3177334236/391095.m3u8
+#EXTINF:-1 tvg-name="beIN Sport 3 4k" tvg-chno="7" tvg-logo="http://51.158.158.30/world_tv_logos/bein-3.png" group-title="beIN Sport 4K",beIN Sport 3 4k
+http://xlion.net:8080/live/Hn544326/3177334236/318199.m3u8
+#EXTINF:-1 tvg-name="beIN3 H265" tvg-chno="8" tvg-logo="http://51.158.158.30/world_tv_logos/bein-3.png" group-title="beIN Sport 4K",beIN3 H265
+http://xlion.net:8080/live/Hn544326/3177334236/391096.m3u8
+#EXTINF:-1 tvg-name="beIN Sport 4 4k" tvg-chno="9" tvg-logo="http://51.158.158.30/world_tv_logos/bein-4.png" group-title="beIN Sport 4K",beIN Sport 4 4k
+http://xlion.net:8080/live/Hn544326/3177334236/440580.m3u8
+#EXTINF:-1 tvg-name="beIN4 H265" tvg-chno="10" tvg-logo="http://51.158.158.30/world_tv_logos/bein-4.png" group-title="beIN Sport 4K",beIN4 H265
+http://xlion.net:8080/live/Hn544326/3177334236/391097.m3u8
+#EXTINF:-1 tvg-name="beIN Sport 5 4k" tvg-chno="11" tvg-logo="http://51.158.158.30/world_tv_logos/bein-5.png" group-title="beIN Sport 4K",beIN Sport 5 4k
+http://xlion.net:8080/live/Hn544326/3177334236/318201.m3u8
+#EXTINF:-1 tvg-name="beIN5 H265" tvg-chno="12" tvg-logo="http://51.158.158.30/world_tv_logos/bein-5.png" group-title="beIN Sport 4K",beIN5 H265
+http://xlion.net:8080/live/Hn544326/3177334236/391098.m3u8
