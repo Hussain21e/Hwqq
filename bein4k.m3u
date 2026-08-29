@@ -19,11 +19,11 @@ http://185.191.126.127:8080///b0:99:d7:15:88:50/3090914536649669/325796
 http://185.191.126.127:8080/live/////////b0:99:d7:15:88:50/3090914536649669/418124.m3u8
 #EXTINF:-1 tvg-id="bein-sports-5-backup" tvg-name="بين سبورت 5 — احتياطي" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_05_hd.png" group-title="رياضة — احتياطي",بين سبورت 5 — احتياطي
 http://185.191.126.127:8080///b0:99:d7:15:88:50/3090914536649669/325797
-#EXTINF:-1 tvg-id="TOD 4k"
+#EXTINF:-1 tvg-name="TOD 4k"
 http://185.191.126.127:8080///b0:99:d7:15:88:50/3090914536649669/460835
-#EXTINF:-1 tvg-id="TOD 1"
+#EXTINF:-1 tvg-name="TOD 1"
 http://185.191.126.127:8080///b0:99:d7:15:88:50/3090914536649669/460836
-#EXTINF:-1 tvg-id="TOD 2"
+#EXTINF:-1 tvg-name="TOD 2"
 http://185.191.126.127:8080///b0:99:d7:15:88:50/3090914536649669/460837
-#EXTINF:-1 tvg-id="TOD 3"
+#EXTINF:-1 tvg-name="TOD 3"
 http://185.191.126.127:8080///b0:99:d7:15:88:50/3090914536649669/460838
