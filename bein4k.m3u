@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="bein-sports-1" tvg-name="بين سبورت 1" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_01_hd.png" group-title="رياضة",بين سبورت 1
-http://185.191.126.127:8080///b0:99:d7:15:88:50/3090914536649669/318197
+http://217.60.253.57:8080/hls/c3a2d5ed1f6720a9a11d1b1b9d376415/10421_1467.ts
 #EXTINF:-1 tvg-id="bein-sports-1-backup" tvg-name="بين سبورت 1 — احتياطي 1" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_01_hd.png" group-title="رياضة",بين سبورت 1 — احتياطي 1
 http://185.191.126.127:8080///b0:99:d7:15:88:50/3090914536649669/325803
 #EXTINF:-1 tvg-id="bein-sports-1-backup-2" tvg-name="بين سبورت 1 — احتياطي 2" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_01_hd.png" group-title="رياضة",بين سبورت 1 — احتياطي 2
