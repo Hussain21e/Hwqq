@@ -1,18 +1,18 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="bein-sports-1" tvg-name="بين سبورت 1" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_01_hd.png" group-title="رياضة",بين سبورت 1
-http://217.60.253.57:8080/hls/614a9c1e696215e3f5ed61042d20d1ba/10421_1542.ts
+http://uniquemax.xyz:2052/live/10375497945304/24779171855387/677039.ts
 #EXTINF:-1 tvg-id="bein-sports-1-backup" tvg-name="بين سبورت 1 — احتياطي 1" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_01_hd.png" group-title="رياضة",بين سبورت 1 — احتياطي 1
-http://185.191.126.127:8080///b0:99:d7:15:88:50/3090914536649669/325803
+http://qwerty8520.online:2052/live/17810359400475/39215025645488/593209.ts
 #EXTINF:-1 tvg-id="bein-sports-1-backup-2" tvg-name="بين سبورت 1 — احتياطي 2" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_01_hd.png" group-title="رياضة",بين سبورت 1 — احتياطي 2
-http://217.60.15.177:8080/live////ksa92543/49566522386/318197.ts?token=bydUcd.byfaz.X.faUdz.yHXUcUfdXH.X.y.IQ.ts.82c148803ebcf8857bb1e982f485e0ba62fe10707e03e5c10c58d9ca13a8239f.199739.RWFydGhsaW5rIFRlbGVjb21tdW5pY2F0aW9ucyBFcXVpcG1lbnQgVHJhZGluZyAmIFM=.MTg1LjE5MS4xMjYuMTI3
+http://qwerty8520.online:2052/live/17810359400475/39215025645488/677021.ts
 #EXTINF:-1 tvg-id="bein-sports-2" tvg-name="بين سبورت 2" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_02_hd.png" group-title="رياضة",بين سبورت 2
-http://217.60.253.88:8080/hls/18487d50031660ede7d0f0d604a9bb34/78394_1547.ts
+http://qwerty8520.online:2052/live/17810359400475/39215025645488/677022.ts
 #EXTINF:-1 tvg-id="bein-sports-2-backup" tvg-name="بين سبورت 2 — احتياطي 1" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_02_hd.png" group-title="رياضة",بين سبورت 2 — احتياطي 1
-http://185.191.126.127:8080///b0:99:d7:15:88:50/3090914536649669/325794
+
 #EXTINF:-1 tvg-id="bein-sports-2-backup-2" tvg-name="بين سبورت 2 — احتياطي 2" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_02_hd.png" group-title="رياضة",بين سبورت 2 — احتياطي 2
 http://217.60.15.177:8080/live//////////ksa92543/49566522386/418115.ts?token=bydUcd.fXaUy.X.cHcay.yHXUcUfdzb.X.y.IQ.ts.07e9b4bf3763e55e5b986aab7db6ae6d5069b56450870068ad48a7430ed5aff8.199739.RWFydGhsaW5rIFRlbGVjb21tdW5pY2F0aW9ucyBFcXVpcG1lbnQgVHJhZGluZyAmIFM=.MTg1LjE5MS4xMjYuMTI3
 #EXTINF:-1 tvg-id="bein-sports-3" tvg-name="بين سبورت 3" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_03_hd.png" group-title="رياضة",بين سبورت 3
-http://217.60.253.88:8080/hls/4676c8dcfe4e7278a6f16d215cfe4a80/78402_1535.ts
+http://qwerty8520.online:2052/live/17810359400475/39215025645488/677023.ts
 #EXTINF:-1 tvg-id="bein-sports-3-backup" tvg-name="بين سبورت 3 — احتياطي 1" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_03_hd.png" group-title="رياضة",بين سبورت 3 — احتياطي 1
 http://185.191.126.127:8080///b0:99:d7:15:88:50/3090914536649669/325795
 #EXTINF:-1 tvg-id="bein-sports-3-backup-2" tvg-name="بين سبورت 3 — احتياطي 2" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_03_hd.png" group-title="رياضة",بين سبورت 3 — احتياطي 2
