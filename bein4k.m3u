@@ -1,11 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="bein-sports-1" tvg-name="بين سبورت 1" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_01_hd.png" group-title="رياضة",بين سبورت 1
-http://iss-025.1700.info/live/euXKuBY4YU2zSr7/xCD3ztZZeyshNPG/402506.ts?token=S0ZcVxENFggUUwwBVQMFVlEHUlRVCVVYUwEGBFcLUFNUV1UCWgQAUQFDGBVCFkQBAls5CwcTDA0HBFADVBQQFEMBRmkLARYIFFADAQlbDlJBGkQWClxTGw0HUgpXDgFQAlIDGkAVXVYUWxYGCVcHVEEaRAcbRVNLWVcJbAZdRAhTARYMDBBYXhpDW1luBlMJAlgCQFkTBhsbFAxAEhoID0UIWBpAB11GRABAUhNYFFVSAVdbQR0UWlhDC0cQQRBbEiVxFE5HUUpCBFpEWA1YRlkUEhFBHRRQRGkXVhFMQARRCVFEQF8WAhRNFlpQGmkHDFgIBwBFX1ZZRUcJQAkQTRIJW1gLEVtAaRFdUxNYFFBUDlFQQR0UTERTF2wLSBBbElUCD0xXBgYYUAMZAFMDRh4=
-#EXTINF:-1 tvg-id="bein-sports-2" tvg-name="بين سبورت 2" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_02_hd.png" group-title="رياضة",بين سبورت 2
+#EXTINF:-1 tvg-name="|AR| BEIN SPORTS 1 4K MS" tvg-id="beinsports1.qa" tvg-chno="4" tvg-logo="http://vodkom.com/MYBEIN/BEIN_SPORTS_1.png" group-title="BEIN SPORTS 4K",|AR| BEIN SPORTS 1 4K MS
+http://espproxy.org/live/euXKuBY4YU2zSr7/xCD3ztZZeyshNPG/6814.ts
+#EXTINF:-1 tvg-name="|AR| BEIN SPORTS 1 4K SA" tvg-id="beinsports1.qa" tvg-chno="6" tvg-logo="http://vodkom.com/MYBEIN/BEIN_SPORTS_1.png" group-title="BEIN SPORTS 4K",|AR| BEIN SPORTS 1 4K SA
+http://espproxy.org/live/euXKuBY4YU2zSr7/xCD3ztZZeyshNPG/402504.ts
+#EXTINF:-1 tvg-name="|AR| BEIN SPORTS 2 4K MS" tvg-id="beinsports2.qa" tvg-chno="8" tvg-logo="http://vodkom.com/MYBEIN/BEIN_SPORTS_2.png" group-title="BEIN SPORTS 4K",|AR| BEIN SPORTS 2 4K MS
+http://espproxy.org/live/euXKuBY4YU2zSr7/xCD3ztZZeyshNPG/6823.ts
+#EXTINF:-1 tvg-name="|AR| BEIN SPORTS 2 4K SA" tvg-id="beinsports2.qa" tvg-chno="10" tvg-logo="http://vodkom.com/MYBEIN/BEIN_SPORTS_2.png" group-title="BEIN SPORTS 4K",|AR| BEIN SPORTS 2 4K SA
+http://espproxy.org/live/euXKuBY4YU2zSr7/xCD3ztZZeyshNPG/402505.ts
+#EXTINF:-1 tvg-name="|AR| BEIN SPORTS 3 4K MS" tvg-id="beinsports3.qa" tvg-chno="12" tvg-logo="http://vodkom.com/MYBEIN/BEIN_SPORTS_3.png" group-title="BEIN SPORTS 4K",|AR| BEIN SPORTS 3 4K MS
+http://espproxy.org/live/euXKuBY4YU2zSr7/xCD3ztZZeyshNPG/6815.ts
+#EXTINF:-1 tvg-name="|AR| BEIN SPORTS 3 4K SA" tvg-id="beinsports3.qa" tvg-chno="14" tvg-logo="http://vodkom.com/MYBEIN/BEIN_SPORTS_3.png" group-title="BEIN SPORTS 4K",|AR| BEIN SPORTS 3 4K SA
 http://espproxy.org/live/euXKuBY4YU2zSr7/xCD3ztZZeyshNPG/402506.ts
-#EXTINF:-1 tvg-id="bein-sports-3" tvg-name="بين سبورت 3" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_03_hd.png" group-title="رياضة",بين سبورت 3
-http://103.163.132.49/hls/c42bece1d4b9a702e6f1f6eb6341392f/212340_910.m3u8
-#EXTINF:-1 tvg-id="bein-sports-4" tvg-name="بين سبورت 4" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_04_hd.png" group-title="رياضة",بين سبورت 4
-http://maxshowplayer.online:2052/live/17810359400475/39215025645488/677015.ts
-#EXTINF:-1 tvg-id="bein-sports-5" tvg-name="بين سبورت 5" tvg-logo="https://raw.githubusercontent.com/murphieslaw23/channel-logos/master/be_in_mena_sports_05_hd.png" group-title="رياضة",بين سبورت 5
-http://maxshowplayer.online:2052/live/17810359400475/39215025645488/677016.ts
